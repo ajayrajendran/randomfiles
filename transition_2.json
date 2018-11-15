@@ -1,0 +1,83 @@
+{
+  "Amazon Web Services": {
+    "replatform": {
+      "consolidate": "<p>This application can be consolidated with the others to one internal-facing IIS server scale set. </p><img data/images/aws_content_hosting.jpg>",
+      "object store": "<p>The Angular front-end could be migrated to an object store (S3, or Blob Store), with the API being Rehosted on the core public-facing IIS server scale set. The build pipeline for the Angluar app could be automated to deploy continuously to the object store, with cache invalidations on each deploy. </p><img data/images/aws_content_management.jpg>",
+      "pipeline": "<p>Recommend moving the Angular.JS app to s3 + CloudFront with a continuous delivery pipeline. </p><img data/images/aws_api_hosting.jpg>",
+      "re-platforming": "<p>A good candidate for an object store. Recommend re-platforming to AWS S3, Google Cloud Storage, or Azure Blob storage, with short-lived/one-time-use URLs which are generated for authenticated and authorized users. </p><img data/images/aws_static_hosting.jpg>"
+    },
+    "refactor": {
+      "cloudfront": "<p>This should be an S3 bucket served by CloudFront, or similar. Requires some refactoring of existing applications. </p><img data/images/aws_dynamic_hosting.jpg>",
+      "serverless": "<p>Suggest refactoring public website to a serverless (e.g. CloudFront + s3) static site, separating explicitly the public (Lowrisk) data from the private sharepoint site that requires login if this has not yet been completed. The other highlight for refactoring the public facing website is that it is the first sign of a modernization initiative and likely to help building momentum that change is possible. </p><img data/images/aws_static_hosting.jpg>",
+      "authorized": "<p>From a security perspective, this would be best served by s3 with one-time use URLs, generated for authorized users only </p><img data/images/aws_content_hosting.jpg>",
+      "cloud native": "<p>Opportunity to refactor this to use cloud native services like S3, and drop any file-share technology that is currently used internally on web servers to have one common set of web assets per site.  </p><img data/images/aws_dynamic_hosting.jpg>"
+    },
+    "retain": {
+      "sunsetted": "<p>Keep this application on premise until Dec 2020 when it is being sunsetted</p>"
+    },
+    "rehost": {
+      "eol": "<p>Not enough is known about this application's software dependencies, its configuration or its alternatives. It's also marked as EOL by the business in Dec 2020. Recommend a lift-and-shift migration until more options can be explored, particularly around the viability of the SaaS alternatives. </p><img data/images/aws_content_hosting.jpg>",
+      "cots": "<p>Simple standalone COTS application with no integration requirements. Recommend lift and shift with a right-size. </p><img data/images/aws_content_hosting.jpg>"
+    },
+    "retire": {
+      "current release": "<p>If we are able to switch to more current release and development tools, we can retire this application.</p>"
+    },
+    "repurchase": {
+      "squarespace": "<p>Wordpress provided a good base for this site to be developed on initially, however given the support costs associated with maintaining a wordpress site securely and the disbanded development project team, we recommend this moves to squarespace.com as a Repurchase transition type.</p>"
+    }
+  },
+  "Azure": {
+    "replatform": {
+      "consolidate": "<p>This application can be consolidated with the others to one internal-facing IIS server scale set. </p><img data/images/azure_content_hosting.jpg>",
+      "object store": "<p>The Angular front-end could be migrated to an object store (S3, or Blob Store), with the API being Rehosted on the core public-facing IIS server scale set. The build pipeline for the Angluar app could be automated to deploy continuously to the object store, with cache invalidations on each deploy. </p><img data/images/azure_content_management.jpg>",
+      "pipeline": "<p>Recommend moving the Angular.JS app to s3 + CloudFront with a continuous delivery pipeline. </p><img data/images/azure_api_hosting.jpg>",
+      "re-platforming": "<p>A good candidate for an object store. Recommend re-platforming to AWS S3, Google Cloud Storage, or Azure Blob storage, with short-lived/one-time-use URLs which are generated for authenticated and authorized users. </p><img data/images/azure_static_hosting.jpg>"
+    },
+    "refactor": {
+      "cloudfront": "<p>This should be an S3 bucket served by CloudFront, or similar. Requires some refactoring of existing applications. </p><img data/images/azure_dynamic_hosting.jpg>",
+      "serverless": "<p>Suggest refactoring public website to a serverless (e.g. CloudFront + s3) static site, separating explicitly the public (Lowrisk) data from the private sharepoint site that requires login if this has not yet been completed. The other highlight for refactoring the public facing website is that it is the first sign of a modernization initiative and likely to help building momentum that change is possible. </p><img data/images/azure_static_hosting.jpg>",
+      "authorized": "<p>From a security perspective, this would be best served by s3 with one-time use URLs, generated for authorized users only </p><img data/images/azure_content_hosting.jpg>",
+      "cloud native": "<p>Opportunity to refactor this to use cloud native services like S3, and drop any file-share technology that is currently used internally on web servers to have one common set of web assets per site.  </p><img data/images/azure_dynamic_hosting.jpg>"
+    },
+    "retain": {
+      "sunsetted": "<p>Keep this application on premise until Dec 2020 when it is being sunsetted</p>"
+    },
+    "rehost": {
+      "eol": "<p>Not enough is known about this application's software dependencies, its configuration or its alternatives. It's also marked as EOL by the business in Dec 2020. Recommend a lift-and-shift migration until more options can be explored, particularly around the viability of the SaaS alternatives. </p><img data/images/azure_content_hosting.jpg>",
+      "cots": "<p>Simple standalone COTS application with no integration requirements. Recommend lift and shift with a right-size. </p><img data/images/azure_content_hosting.jpg>"
+    },
+    "retire": {
+      "current release": "<p>If we are able to switch to more current release and development tools, we can retire this application.</p>"
+    },
+    "repurchase": {
+      "squarespace": "<p>Wordpress provided a good base for this site to be developed on initially, however given the support costs associated with maintaining a wordpress site securely and the disbanded development project team, we recommend this moves to squarespace.com as a Repurchase transition type.</p>"
+    }
+  },
+  "Google Cloud Platform": {
+    "replatform": {
+      "consolidate": "<p>This application can be consolidated with the others to one internal-facing IIS server scale set. </p><img data/images/google_content_hosting.png>",
+      "object store": "<p>The Angular front-end could be migrated to an object store (S3, or Blob Store), with the API being Rehosted on the core public-facing IIS server scale set. The build pipeline for the Angluar app could be automated to deploy continuously to the object store, with cache invalidations on each deploy. </p><img data/images/google_content_management.png>",
+      "pipeline": "<p>Recommend moving the Angular.JS app to s3 + CloudFront with a continuous delivery pipeline. </p><img data/images/google_api_hosting.png>",
+      "re-platforming": "<p>A good candidate for an object store. Recommend re-platforming to AWS S3, Google Cloud Storage, or Azure Blob storage, with short-lived/one-time-use URLs which are generated for authenticated and authorized users. </p><img data/images/google_static_hosting.png>"
+    },
+    "refactor": {
+      "cloudfront": "<p>This should be an S3 bucket served by CloudFront, or similar. Requires some refactoring of existing applications. </p><img data/images/google_dynamic_hosting.png>",
+      "serverless": "<p>Suggest refactoring public website to a serverless (e.g. CloudFront + s3) static site, separating explicitly the public (Lowrisk) data from the private sharepoint site that requires login if this has not yet been completed. The other highlight for refactoring the public facing website is that it is the first sign of a modernization initiative and likely to help building momentum that change is possible. </p><img data/images/google_static_hosting.png>",
+      "authorized": "<p>From a security perspective, this would be best served by s3 with one-time use URLs, generated for authorized users only </p><img data/images/google_content_hosting.png>",
+      "cloud native": "<p>Opportunity to refactor this to use cloud native services like S3, and drop any file-share technology that is currently used internally on web servers to have one common set of web assets per site.  </p><img data/images/google_dynamic_hosting.png>"
+    },
+    "retain": {
+      "sunsetted": "<p>Keep this application on premise until Dec 2020 when it is being sunsetted</p>"
+    },
+    "rehost": {
+      "eol": "<p>Not enough is known about this application's software dependencies, its configuration or its alternatives. It's also marked as EOL by the business in Dec 2020. Recommend a lift-and-shift migration until more options can be explored, particularly around the viability of the SaaS alternatives. </p><img data/images/google_content_hosting.png>",
+      "cots": "<p>Simple standalone COTS application with no integration requirements. Recommend lift and shift with a right-size. </p><img data/images/google_content_hosting.png>"
+    },
+    "retire": {
+      "current release": "<p>If we are able to switch to more current release and development tools, we can retire this application.</p>"
+    },
+    "repurchase": {
+      "squarespace": "<p>Wordpress provided a good base for this site to be developed on initially, however given the support costs associated with maintaining a wordpress site securely and the disbanded development project team, we recommend this moves to squarespace.com as a Repurchase transition type.</p>"
+    }
+  }
+}

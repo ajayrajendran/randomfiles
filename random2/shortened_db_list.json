@@ -1,0 +1,82 @@
+{
+  "yellowpages.com": {
+    "name": "Yellowpages Account database",
+    "description": "This is the database for Yellowpages's account data",
+    "environment": "Test",
+    "database_path": "C:\\Windows\\System32\\Yellowpages\\databases\\account_database",
+    "database_size": "42000",
+    "cluster": "yellowpagesdb3"
+  },
+  "airbnb.com": {
+    "name": "Airbnb Product database",
+    "description": "This is the database for Airbnb's product data",
+    "environment": "Production",
+    "database_path": "D:\\Windows\\System32\\Airbnb\\databases\\product_database",
+    "database_size": "28000",
+    "cluster": "airbnbdb0"
+  },
+  "alexa.com": {
+    "name": "Alexa App database",
+    "description": "This is the database for Alexa's app data",
+    "environment": "Development",
+    "database_path": "D:\\Windows\\System32\\Alexa\\databases\\app_database",
+    "database_size": "22000",
+    "cluster": "alexadb5"
+  },
+  "nih.gov": {
+    "name": "Nih Product database",
+    "description": "This is the database for Nih's product data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Nih/app_data/databases/product_database",
+    "database_size": "32000",
+    "cluster": "nihdb1"
+  },
+  "ancestry.com": {
+    "name": "Ancestry App database",
+    "description": "This is the database for Ancestry's app data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Ancestry/app_data/databases/app_database",
+    "database_size": "40000",
+    "cluster": "ancestrydb4"
+  },
+  "battle.net": {
+    "name": "Battle App database",
+    "description": "This is the database for Battle's app data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Battle/app_data/databases/app_database",
+    "database_size": "27000",
+    "cluster": "battledb3"
+  },
+  "minecraft.net": {
+    "name": "Minecraft App database",
+    "description": "This is the database for Minecraft's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Minecraft/app_data/databases/app_database",
+    "database_size": "20000",
+    "cluster": "minecraftdb0"
+  },
+  "epicgames.com": {
+    "name": "Epicgames Account database",
+    "description": "This is the database for Epicgames's account data",
+    "environment": "Production",
+    "database_path": "D:\\Windows\\System32\\Epicgames\\databases\\account_database",
+    "database_size": "56000",
+    "cluster": "epicgamesdb4"
+  },
+  "starry.com": {
+    "name": "Starry Account database",
+    "description": "This is the database for Starry's account data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Starry/app_data/databases/account_database",
+    "database_size": "44000",
+    "cluster": "starrydb2"
+  },
+  "cheddar.com": {
+    "name": "Cheddar Product database",
+    "description": "This is the database for Cheddar's product data",
+    "environment": "Development",
+    "database_path": "G:\\Windows\\System32\\Cheddar\\databases\\product_database",
+    "database_size": "23000",
+    "cluster": "cheddardb4"
+  }
+}

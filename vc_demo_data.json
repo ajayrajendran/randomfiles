@@ -1,0 +1,17 @@
+{
+  "APP ESX - ESXi 6.5 U1":
+  {
+    "hypervisor technology": "APP ESX - ESXi 6.5 U1",
+    "servers": ["yellowpagesapp0"]
+  },
+  "DB Hyper-V - Windows Server 2012":
+  {
+    "hypervisor technology": "DB Hyper-V - Windows Server 2012",
+    "servers": ["yellowpagesdb3"]
+  },
+  "F.E. ESX - ESXi 6.5 U1g":
+  {
+    "hypervisor technology": "F.E. ESX - ESXi 6.5 U1g",
+    "servers": ["yellowproxy2", "yellowpagesweb5"]
+  }
+}

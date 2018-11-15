@@ -1,0 +1,150 @@
+{
+    "replatform":
+    {
+        "consolidate": 
+        {
+            "content":"This application can be consolidated with the others to one internal-facing IIS server scale set. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "object store": 
+        {
+            "content":"The Angular front-end could be migrated to an object store (S3, or Blob Store), with the API being Rehosted on the core public-facing IIS server scale set. The build pipeline for the Angluar app could be automated to deploy continuously to the object store, with cache invalidations on each deploy. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "pipeline": 
+        {
+            "content":"Recommend moving the Angular.JS app to s3 + CloudFront with a continuous delivery pipeline. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "re-platforming": 
+        {
+            "content":"A good candidate for an object store. Recommend re-platforming to AWS S3, Google Cloud Storage, or Azure Blob storage, with short-lived/one-time-use URLs which are generated for authenticated and authorized users. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        }
+    },
+    "refactor":
+    {
+        "cloudfront": 
+        {
+            "content":"This should be an S3 bucket served by CloudFront, or similar. Requires some refactoring of existing applications. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "serverless": 
+        {
+            "content":"Suggest refactoring public website to a serverless (e.g. CloudFront + s3) static site, separating explicitly the public (Lowrisk) data from the private sharepoint site that requires login if this has not yet been completed. The other highlight for refactoring the public facing website is that it is the first sign of a modernization initiative and likely to help building momentum that change is possible. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "authorized": 
+        {
+            "content":"From a security perspective, this would be best served by s3 with one-time use URLs, generated for authorized users only <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "cloud native": 
+        {
+            "content":"Opportunity to refactor this to use cloud native services like S3, and drop any file-share technology that is currently used internally on web servers to have one common set of web assets per site.  <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        }
+    },
+    "retain":
+    {
+        "sunsetted": 
+        {
+            "content":"Keep this application on premise until Dec 2020 when it is being sunsetted. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        }
+    },
+    "rehost":
+    {
+        "eol":
+        {
+            "content":"Not enough is known about this application's software dependencies, its configuration or its alternatives. It's also marked as EOL by the business in Dec 2020. Recommend a lift-and-shift migration until more options can be explored, particularly around the viability of the SaaS alternatives. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        },
+        "cots":
+        {
+            "content":"Simple standalone COTS application with no integration requirements. Recommend lift and shift with a right-size. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        }
+    },
+    "retire":
+    {
+        "current release": 
+        {
+            "content":"If we are able to switch to more current release and development tools, we can retire this application. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        }
+    },
+    "repurchase":
+    {
+        "squarespace": 
+        {
+            "content":"Wordpress provided a good base for this site to be developed on initially, however given the support costs associated with maintaining a wordpress site securely and the disbanded development project team, we recommend this moves to squarespace.com as a Repurchase transition type. <<<car image>>>",
+            "image paths":
+            {
+                "Amazon Web Services car image": "data/images/car.jpg",
+                "Azure car image": "data/images/car.jpg",
+                "Google Cloud Platform car image": "data/images/car.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+get '/apps/export' => 'apps#export', :as => :app_export
+        get '/servers/export' => 'servers#export', :as => :server_export
+        get '/database_instances/export' => 'database_instances#export', :as => :database_instance_export
+        get '/virtualization_clusters/export' => 'virtualization_clusters#export', :as => :virtualization_clusters_export
+
+        delete '/apps/bulk_delete' => 'apps#bulk_delete', :as => :app_bulk_delete
+        delete '/servers/bulk_delete' => 'servers#bulk_delete', :as => :server_bulk_delete
+        delete '/database_instances/bulk_delete' => 'database_instances#bulk_delete', :as => :database_bulk_delete
+
+        post '/apps/bulk_apply_tag' => 'apps#bulk_apply_tag', :as => :app_bulk_apply_tag
+        post '/servers/bulk_apply_tag' => 'servers#bulk_apply_tag', :as => :server_bulk_apply_tag
+        post '/servers/bulk_apply_move_group' => 'servers#bulk_apply_move_group', :as => :server_bulk_apply_move_group
+        post '/apps/bulk_apply_move_group' => 'apps#bulk_apply_move_group', :as => :app_bulk_apply_move_group
+        post '/database_instances/bulk_apply_tag' => 'database_instances#bulk_apply_tag', :as => :database_bulk_apply_tag
+
+        post '/apps/import' => 'apps#import', :as => :app_import
+        post '/servers/import' => 'servers#import', :as => :server_import
+        post '/database_instances/import' => 'database_instances#import', :as => :database_instance_import
+        post '/virtualization_clusters/import' => 'virtualization_clusters#import', :as => :virtualization_clusters_import
+
+        post '/apps/bulk_update' => 'apps#sync', :as => :app_sync
+        post '/servers/bulk_update' => 'servers#sync', :as => :server_sync
+        post '/database_instances/bulk_update' => 'database_instances#sync', :as => :database_instance_update
+        post '/apps/sync' => 'apps#sync'
+        post '/servers/sync' => 'servers#sync'
+        post '/database_instances/sync' => 'database_instances#sync'
+        post '/apps/discover' => 'apps#discover',  :as => :app_discover, :defaults => {:format => :json }
+        get '/apps/analyze' => 'apps#analyze', :as => :app_analyze
+        get '/apps/bulk_analyze' => 'apps#bulk_analyze', :as => :app_bulk_analyze
+
+        get '/apps/count' => 'apps#count', :defaults => {:format => :json }
+        get '/servers/count' => 'servers#count', :defaults => {:format => :json }
+        get '/database_instances/count' => 'database_instances#count', :defaults => {:format => :json }
+        get '/virtualization_clusters/count' => 'virtualization_clusters#count', :defaults => {:format => :json }
+
+        get '/apps/jobs' => 'apps#jobs', :defaults => {:format => :json }
+        get '/apps/:id/job' => 'apps#job', :defaults => {:format => :json }
+        get '/apps/sums' => 'apps#sums', :defaults => {:format => :json }
+        get '/apps/averages' => 'apps#averages', :defaults => {:format => :json }
+        get '/apps/medians' => 'apps#medians', :defaults => {:format => :json }
+        get '/servers/sums' => 'servers#sums', :defaults => {:format => :json }
+        get '/servers/averages' => 'servers#averages', :defaults => {:format => :json }
+        get '/servers/medians' => 'servers#medians', :defaults => {:format => :json }
+        get '/database_instances/sums' => 'database_instances#sums', :defaults => {:format => :json }
+        get '/database_instances/averages' => 'database_instances#averages', :defaults => {:format => :json }
+        get '/database_instances/medians' => 'database_instances#medians', :defaults => {:format => :json }
+        get '/virtualization_clusters/sums' => 'virtualization_clusters#sums', :defaults => {:format => :json }
+        get '/virtualization_clusters/averages' => 'virtualization_clusters#averages', :defaults => {:format => :json }
+        get '/virtualization_clusters/medians' => 'virtualization_clusters#medians', :defaults => {:format => :json }
+
+        get '/available_ips' => 'available_ips#index', :defaults => {:format => :json }
+        get '/history' => 'history#index', :defaults => {:format => :json }
+        get '/tags/usage' => 'tags#usage', :defaults => {:format => :json }
+        post '/tags/bulk_update' => 'tags#bulk_update', :defaults => {:format => :json }
+        post '/tags/merge' => 'tags#merge_tags', :defaults => {:format => :json }
+        post '/tags/bulk_delete' => 'tags#bulk_delete', :defaults => {:format => :json }
+
+        get '/fields/used' => 'fields#used', :defaults => {:format => :json }
+        post '/settings/upload_logo' => 'settings#upload_logo', :defaults => {:format => :json }
+
+        get '/password_resets/:id', to: 'password_resets#edit', :defaults => {:format => :json }
+        put '/password_resets/:id', to: 'password_resets#update', :defaults => {:format => :json }
+        post '/password_resets', to: 'password_resets#create', :defaults => {:format => :json }
+
+        get '/reports/servers/storage_used', to: 'reports#storage_used', :defaults => {:format => :json }
+        get '/reports/servers/storage_allocated', to: 'reports#storage_allocated', :defaults => {:format => :json }
+        get '/reports/servers/ram_used', to: 'reports#ram_used', :defaults => {:format => :json }
+        get '/reports/servers/ram_allocated', to: 'reports#ram_allocated', :defaults => {:format => :json }
+        get '/reports/database_instances/db_size_mb', to: 'reports#db_size_mb', :defaults => {:format => :json }
+        get '/reports/database_instances/custom', to: 'reports#database_custom', :defaults => {:format => :json }
+        get '/reports/servers/custom', to: 'reports#server_custom', :defaults => {:format => :json }
+        get '/reports/applications/custom', to: 'reports#application_custom', :defaults => {:format => :json }
+
+        # used for Cloud readiness customization
+        post '/packs/:id/reset', to: 'packs#reset', :defaults => {:format => :json }
+        post '/packs/edit_cloud_readiness_fields', to: 'packs#edit_cloud_readiness_fields', :defaults => {:format => :json }
+        put '/packs/:id' => 'packs#update', :as => :pack_update
+        get '/packs' => 'packs#index', :as => :pack_index
+
+        get '/tag_groups/count', to: 'tag_groups#count', :defaults => {:format => :json }
+
+        post '/network_devices/to_server' => 'network_devices#to_server', :defaults => {:format => :json }
+
+        get '/apps/assessment(.:format)', to: 'apps#assessment'
+        put '/apps/:id/questions/', to: 'apps#update_question', defaults: {format: :json}
+        get '/questions/', to: 'questions#index', defaults: {format: :json}
+
+        resources :apps, :defaults => { :format => :json }
+        resources :jobs, only: [:index, :show]
+        resources :servers, :defaults => { :format => :json }
+        resources :fields, :defaults => { :format => :json }
+        resources :field_options, :defaults => { :format => :json }
+        resources :tags, :defaults => { :format => :json }
+        resources :tag_groups, :defaults => { :format => :json }
+        resources :customers, :defaults => { :format => :json }
+        resources :environments, :defaults => { :format => :json }
+        resources :databases, :defaults => { :format => :json }
+        resources :database_instances, :defaults => { :format => :json }
+        resources :settings, :defaults => { :format => :json }
+        resources :ip_addresses, :defaults => { :format => :json }
+        resources :softwares, :defaults => { :format => :json }
+        resources :move_groups, :defaults => { :format => :json }
+        resources :contacts, :defaults => { :format => :json }
+        resources :technologies, :defaults => { :format => :json }
+        resources :dashboards, :defaults => { :format => :json }
+        resources :documents, :defaults => { :format => :json }
+        resources :notes, :defaults => { :format => :json }
+        resources :network_devices, :defaults => { :format => :json }
+        resources :virtualization_clusters, :defaults => { :format => :json }
+        resources :clouds, :defaults => {:format => :json }
+        resources :urls, :defaults => {:format => :json }
+        #TODO remove this
+        resources :user_sessions, :defaults => { :format => :json }
+
+        resources :invites, :id => /.*/, :defaults => {:format => :json }
+        resources :users, :defaults => {:format => :json }
+        post '/register' => 'invites#register', :as => :register
+        get '/current_user' => 'users#current', :defaults => {:format => :json}
+        put '/user_settings' => 'users#settings', :as => :user_settings
+        post '/authenticate' => 'authenticate#authenticate', :as => :authenticate
+        post '/refresh' => 'authenticate#refresh', :as => :refresh
+        post '/integrations/dns-tools' => 'integrations#dns_tools', :as => :dns_tools
+        resources :ping, only: [:index]

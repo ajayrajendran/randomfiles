@@ -1,0 +1,352 @@
+{
+  "yellowpages.com": {
+    "name": "Yellow Pages website",
+    "description": "Telephone directories of businesses, organized by category, and in which advertising is sold",
+    "urls": [
+      "http://www.yellowpages.com"
+    ],
+    "application owner": "Dolly Parker",
+    "tech lead": "Ms. Randi Buckridge",
+    "value to business": 19000000,
+    "hosting cost": 4000000,
+    "number of users": 160000,
+    "staff costs": 8000000,
+    "environment": "Test",
+    "Frequency of deployments": "Yearly",
+    "Uptime requirements": "9am-5pm, Mon-Fri",
+    "Data sensitivity": "Low",
+    "Source code controlled": false,
+    "Continuous delivery": false,
+    "Can run on Linux": true,
+    "PII": false,
+    "Legal holds": true,
+    "COTS": true,
+    "Business continuity plan": true,
+    "End of support date": "2020-09-15",
+    "Dependencies": "Map Integration App",
+    "servers": [
+      "yellowpagesweb5",
+      "yellowproxy2",
+      "yellowpagesapp0",
+      "yellowpagesdb3"
+    ],
+    "databases": [
+      "Yellowpages Account database"
+    ]
+  },
+  "airbnb.com": {
+    "name": "Airbnb, Inc.",
+    "description": "Accomodation sharing site that allows property owners to rent out their spaces to travellers",
+    "urls": [
+      "http://www.airbnb.com"
+    ],
+    "application owner": "Desiree Christiansen",
+    "tech lead": "Ms. Nola Bins",
+    "value to business": 17000000,
+    "hosting cost": 3000000,
+    "number of users": 150000,
+    "staff costs": 8000000,
+    "environment": "Test",
+    "Frequency of deployments": "Hourly",
+    "Uptime requirements": "9am-5pm, Mon-Sat",
+    "Data sensitivity": "Medium",
+    "Source code controlled": true,
+    "Continuous delivery": false,
+    "Can run on Linux": false,
+    "PII": true,
+    "Legal holds": true,
+    "COTS": true,
+    "Business continuity plan": false,
+    "End of support date": "2022-12-10",
+    "Dependencies": "Map Integration App",
+    "servers": [
+      "airbnbweb3",
+      "airbnbproxy1",
+      "airbnbapp1",
+      "airbnbdb0"
+    ],
+    "databases": [
+      "Airbnb Product database"
+    ]
+  },
+  "alexa.com": {
+    "name": "Alexa website",
+    "description": "Provides commercial web traffic data and analytics",
+    "urls": [
+      "http://www.alexa.com"
+    ],
+    "application owner": "Daren McGlynn Jr.",
+    "tech lead": "Roslyn Marks",
+    "value to business": 19000000,
+    "hosting cost": 3000000,
+    "number of users": 170000,
+    "staff costs": 6000000,
+    "environment": "Test",
+    "Frequency of deployments": "Daily",
+    "Uptime requirements": "9am-5pm, Mon-Fri",
+    "Data sensitivity": "Medium",
+    "Source code controlled": true,
+    "Continuous delivery": true,
+    "Can run on Linux": false,
+    "PII": false,
+    "Legal holds": true,
+    "COTS": true,
+    "Business continuity plan": false,
+    "End of support date": "2022-12-18",
+    "Dependencies": "Payment Integration App",
+    "servers": [
+      "alexaweb4",
+      "alexaproxy3",
+      "alexaapp5",
+      "alexadb5"
+    ],
+    "databases": [
+      "Alexa App database"
+    ]
+  },
+  "nih.gov": {
+    "name": "National Institutes of Health",
+    "description": "Primary agency of the United States Government, responsible for biomedial and public health research",
+    "urls": [
+      "http://www.nih.gov"
+    ],
+    "application owner": "Alfred Wiza V",
+    "tech lead": "Kennedi Nolan",
+    "value to business": 24000000,
+    "hosting cost": 1000000,
+    "number of users": 200000,
+    "staff costs": 8000000,
+    "environment": "Test",
+    "Frequency of deployments": "Monthly",
+    "Uptime requirements": "24x7",
+    "Data sensitivity": "High",
+    "Source code controlled": true,
+    "Continuous delivery": true,
+    "Can run on Linux": false,
+    "PII": false,
+    "Legal holds": true,
+    "COTS": true,
+    "Business continuity plan": true,
+    "End of support date": "2021-08-06",
+    "Dependencies": "3D Print API",
+    "servers": [
+      "nihweb2",
+      "nihproxy0",
+      "nihapp0",
+      "nihdb1"
+    ],
+    "databases": [
+      "Nih Product database"
+    ]
+  },
+  "ancestry.com": {
+    "name": "Ancestry website",
+    "description": "largest for-profit genealogy company, which operates a network of genealogical, historical record and genetic genealogy websites",
+    "urls": [
+      "http://www.ancestry.com"
+    ],
+    "application owner": "Precious Yost",
+    "tech lead": "Zack Terry",
+    "value to business": 17000000,
+    "hosting cost": 2000000,
+    "number of users": 150000,
+    "staff costs": 8000000,
+    "environment": "Development",
+    "Frequency of deployments": "Yearly",
+    "Uptime requirements": "9am-5pm, Mon-Sat",
+    "Data sensitivity": "Medium",
+    "Source code controlled": false,
+    "Continuous delivery": true,
+    "Can run on Linux": false,
+    "PII": true,
+    "Legal holds": false,
+    "COTS": false,
+    "Business continuity plan": true,
+    "End of support date": "2021-04-30",
+    "Dependencies": "Payment Integration App",
+    "servers": [
+      "ancestryweb4",
+      "ancestryproxy1",
+      "ancestryapp0",
+      "ancestrydb4"
+    ],
+    "databases": [
+      "Ancestry App database"
+    ]
+  },
+  "battle.net": {
+    "name": "Blizzard battle.net website",
+    "description": "Internet-based online gaming, social networking, digital distribution, and digital rights management platform developed by Blizzard Entertainment",
+    "urls": [
+      "http://www.battle.net"
+    ],
+    "application owner": "Minerva Ziemann",
+    "tech lead": "Annetta Stamm",
+    "value to business": 19000000,
+    "hosting cost": 2000000,
+    "number of users": 160000,
+    "staff costs": 6000000,
+    "environment": "Test",
+    "Frequency of deployments": "Hourly",
+    "Uptime requirements": "9am-5pm, Mon-Sun",
+    "Data sensitivity": "High",
+    "Source code controlled": false,
+    "Continuous delivery": true,
+    "Can run on Linux": false,
+    "PII": true,
+    "Legal holds": false,
+    "COTS": true,
+    "Business continuity plan": false,
+    "End of support date": "2023-08-15",
+    "Dependencies": "External Login Integration App",
+    "servers": [
+      "battleweb5",
+      "battleproxy2",
+      "battleapp5",
+      "battledb3"
+    ],
+    "databases": [
+      "Battle App database"
+    ]
+  },
+  "minecraft.net": {
+    "name": "Minecraft website",
+    "description": "Minecraft is a 2011 sandbox video game created by swedish game designer Markus Persson",
+    "urls": [
+      "http://www.minecraft.net"
+    ],
+    "application owner": " Markus Persson",
+    "tech lead": "Jeramy Feeney",
+    "value to business": 21000000,
+    "hosting cost": 1000000,
+    "number of users": 200000,
+    "staff costs": 5000000,
+    "environment": "Test",
+    "Frequency of deployments": "Daily",
+    "Uptime requirements": "9am-5pm, Mon-Sat",
+    "Data sensitivity": "Medium",
+    "Source code controlled": false,
+    "Continuous delivery": true,
+    "Can run on Linux": true,
+    "PII": false,
+    "Legal holds": true,
+    "COTS": false,
+    "Business continuity plan": false,
+    "End of support date": "2021-10-20",
+    "Dependencies": "Fullcontact API",
+    "servers": [
+      "minecraftweb0",
+      "minecraftproxy0",
+      "minecraftapp1",
+      "minecraftdb0"
+    ],
+    "databases": [
+      "Minecraft App database"
+    ]
+  },
+  "epicgames.com": {
+    "name": "Epic Games, Inc.",
+    "description": "American video game and software development corporation based in Cary, North Carolina",
+    "urls": [
+      "http://www.epicgames.com"
+    ],
+    "application owner": "Oral Douglas",
+    "tech lead": "Otha Stamm",
+    "value to business": 16000000,
+    "hosting cost": 4000000,
+    "number of users": 170000,
+    "staff costs": 8000000,
+    "environment": "Test",
+    "Frequency of deployments": "Hourly",
+    "Uptime requirements": "9am-5pm, Mon-Sun",
+    "Data sensitivity": "High",
+    "Source code controlled": true,
+    "Continuous delivery": false,
+    "Can run on Linux": true,
+    "PII": true,
+    "Legal holds": false,
+    "COTS": false,
+    "Business continuity plan": true,
+    "End of support date": "2021-05-20",
+    "Dependencies": "Payment Integration App",
+    "servers": [
+      "epicgamesweb3",
+      "epicgamesproxy0",
+      "epicgamesapp2",
+      "epicgamesdb4"
+    ],
+    "databases": [
+      "Epicgames Account database"
+    ]
+  },
+  "starry.com": {
+    "name": "Starry Internet",
+    "description": "A fixed wireless broadband Internet service provider (ISP or WISP) operated by Starry, Inc.",
+    "urls": [
+      "http://www.starry.com"
+    ],
+    "application owner": "Annamae Wolf",
+    "tech lead": "Heather Adams",
+    "value to business": 23000000,
+    "hosting cost": 2000000,
+    "number of users": 160000,
+    "staff costs": 5000000,
+    "environment": "Production",
+    "Frequency of deployments": "Hourly",
+    "Uptime requirements": "24x7",
+    "Data sensitivity": "Low",
+    "Source code controlled": false,
+    "Continuous delivery": false,
+    "Can run on Linux": false,
+    "PII": false,
+    "Legal holds": false,
+    "COTS": true,
+    "Business continuity plan": false,
+    "End of support date": "2022-12-12",
+    "Dependencies": "External Login Integration App",
+    "servers": [
+      "starryweb1",
+      "starryproxy1",
+      "starryapp1",
+      "starrydb2"
+    ],
+    "databases": [
+      "Starry Account database"
+    ]
+  },
+  "cheddar.com": {
+    "name": "Cheddar (TV Channel)",
+    "description": "Cheddar is a live streaming financial news network founded by Jon Steinberg in the United States",
+    "urls": [
+      "http://www.cheddar.com"
+    ],
+    "application owner": "John Steinberg",
+    "tech lead": "Gracie Cummerata PhD",
+    "value to business": 20000000,
+    "hosting cost": 2000000,
+    "number of users": 200000,
+    "staff costs": 7000000,
+    "environment": "Production",
+    "Frequency of deployments": "Yearly",
+    "Uptime requirements": "24x7",
+    "Data sensitivity": "Low",
+    "Source code controlled": false,
+    "Continuous delivery": true,
+    "Can run on Linux": false,
+    "PII": false,
+    "Legal holds": true,
+    "COTS": false,
+    "Business continuity plan": false,
+    "End of support date": "2023-08-25",
+    "Dependencies": "Custom Tweet Filter App",
+    "servers": [
+      "cheddarweb1",
+      "cheddarproxy3",
+      "cheddarapp0",
+      "cheddardb4"
+    ],
+    "databases": [
+      "Cheddar Product database"
+    ]
+  }
+}

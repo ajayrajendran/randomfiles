@@ -1,0 +1,394 @@
+{
+  "yellowpages.com": {
+    "name": "Yellowpages Account database",
+    "description": "This is the database for Yellowpages's account data",
+    "environment": "Test",
+    "database_path": "C:\\Windows\\System32\\Yellowpages\\databases\\account_database",
+    "database_size": "42000",
+    "cluster": "yellowpagesdb3"
+  },
+  "airbnb.com": {
+    "name": "Airbnb Product database",
+    "description": "This is the database for Airbnb's product data",
+    "environment": "Production",
+    "database_path": "D:\\Windows\\System32\\Airbnb\\databases\\product_database",
+    "database_size": "28000",
+    "cluster": "airbnbdb0"
+  },
+  "alexa.com": {
+    "name": "Alexa App database",
+    "description": "This is the database for Alexa's app data",
+    "environment": "Development",
+    "database_path": "D:\\Windows\\System32\\Alexa\\databases\\app_database",
+    "database_size": "22000",
+    "cluster": "alexadb5"
+  },
+  "nih.gov": {
+    "name": "Nih Product database",
+    "description": "This is the database for Nih's product data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Nih/app_data/databases/product_database",
+    "database_size": "32000",
+    "cluster": "nihdb1"
+  },
+  "ancestry.com": {
+    "name": "Ancestry App database",
+    "description": "This is the database for Ancestry's app data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Ancestry/app_data/databases/app_database",
+    "database_size": "40000",
+    "cluster": "ancestrydb4"
+  },
+  "battle.net": {
+    "name": "Battle App database",
+    "description": "This is the database for Battle's app data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Battle/app_data/databases/app_database",
+    "database_size": "27000",
+    "cluster": "battledb3"
+  },
+  "minecraft.net": {
+    "name": "Minecraft App database",
+    "description": "This is the database for Minecraft's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Minecraft/app_data/databases/app_database",
+    "database_size": "20000",
+    "cluster": "minecraftdb0"
+  },
+  "epicgames.com": {
+    "name": "Epicgames Account database",
+    "description": "This is the database for Epicgames's account data",
+    "environment": "Production",
+    "database_path": "D:\\Windows\\System32\\Epicgames\\databases\\account_database",
+    "database_size": "56000",
+    "cluster": "epicgamesdb4"
+  },
+  "starry.com": {
+    "name": "Starry Account database",
+    "description": "This is the database for Starry's account data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Starry/app_data/databases/account_database",
+    "database_size": "44000",
+    "cluster": "starrydb2"
+  },
+  "cheddar.com": {
+    "name": "Cheddar Product database",
+    "description": "This is the database for Cheddar's product data",
+    "environment": "Development",
+    "database_path": "G:\\Windows\\System32\\Cheddar\\databases\\product_database",
+    "database_size": "23000",
+    "cluster": "cheddardb4"
+  },
+  "nanit.com": {
+    "name": "Nanit Account database",
+    "description": "This is the database for Nanit's account data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Nanit/app_data/databases/account_database",
+    "database_size": "27000",
+    "cluster": "nanitdb4"
+  },
+  "truebill.com": {
+    "name": "Truebill App database",
+    "description": "This is the database for Truebill's app data",
+    "environment": "Development",
+    "database_path": "C:\\Windows\\System32\\Truebill\\databases\\app_database",
+    "database_size": "42000",
+    "cluster": "truebilldb0"
+  },
+  "Kijiji.ca": {
+    "name": "Kijiji Account database",
+    "description": "This is the database for Kijiji's account data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Kijiji/app_data/databases/account_database",
+    "database_size": "52000",
+    "cluster": "kijijidb0"
+  },
+  "Apartmenttherapy.com": {
+    "name": "Apartmenttherapy Product database",
+    "description": "This is the database for Apartmenttherapy's product data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Apartmenttherapy/app_data/databases/product_database",
+    "database_size": "58000",
+    "cluster": "apartmentdb0"
+  },
+  "Phonearena.com": {
+    "name": "Phonearena Account database",
+    "description": "This is the database for Phonearena's account data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Phonearena/app_data/databases/account_database",
+    "database_size": "47000",
+    "cluster": "phonearenadb2"
+  },
+  "Bonappetit.com": {
+    "name": "Bonappetit Product database",
+    "description": "This is the database for Bonappetit's product data",
+    "environment": "Production",
+    "database_path": "G:\\Windows\\System32\\Bonappetit\\databases\\product_database",
+    "database_size": "48000",
+    "cluster": "bonappetitdb3"
+  },
+  "Realsimple.com": {
+    "name": "Realsimple Account database",
+    "description": "This is the database for Realsimple's account data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Realsimple/app_data/databases/account_database",
+    "database_size": "55000",
+    "cluster": "realsimpledb2"
+  },
+  "Opendns.com": {
+    "name": "Opendns Product database",
+    "description": "This is the database for Opendns's product data",
+    "environment": "Development",
+    "database_path": "G:\\Windows\\System32\\Opendns\\databases\\product_database",
+    "database_size": "30000",
+    "cluster": "opendnsdb0"
+  },
+  "Trustedreviews.com": {
+    "name": "Trustedreviews Product database",
+    "description": "This is the database for Trustedreviews's product data",
+    "environment": "Development",
+    "database_path": "C:\\Windows\\System32\\Trustedreviews\\databases\\product_database",
+    "database_size": "44000",
+    "cluster": "trusteddb2"
+  },
+  "Edmunds.com": {
+    "name": "Edmunds App database",
+    "description": "This is the database for Edmunds's app data",
+    "environment": "Production",
+    "database_path": "D:\\Windows\\System32\\Edmunds\\databases\\app_database",
+    "database_size": "28000",
+    "cluster": "edmundsdb1"
+  },
+  "Tomsguide.com": {
+    "name": "Tomsguide App database",
+    "description": "This is the database for Tomsguide's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Tomsguide/app_data/databases/app_database",
+    "database_size": "38000",
+    "cluster": "tomsguidedb1"
+  },
+  "Myfitnesspal.com": {
+    "name": "Myfitnesspal Product database",
+    "description": "This is the database for Myfitnesspal's product data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Myfitnesspal/app_data/databases/product_database",
+    "database_size": "43000",
+    "cluster": "myfitnesspaldb5"
+  },
+  "Archive.org": {
+    "name": "Archive Product database",
+    "description": "This is the database for Archive's product data",
+    "environment": "Test",
+    "database_path": "D:\\Windows\\System32\\Archive\\databases\\product_database",
+    "database_size": "28000",
+    "cluster": "archivedb4"
+  },
+  "Thesaurus.com": {
+    "name": "Thesaurus App database",
+    "description": "This is the database for Thesaurus's app data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Thesaurus/app_data/databases/app_database",
+    "database_size": "55000",
+    "cluster": "thesaurusdb1"
+  },
+  "Mit.edu": {
+    "name": "Mit App database",
+    "description": "This is the database for Mit's app data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Mit/app_data/databases/app_database",
+    "database_size": "20000",
+    "cluster": "mitdb1"
+  },
+  "Investopedia.com": {
+    "name": "Investopedia Product database",
+    "description": "This is the database for Investopedia's product data",
+    "environment": "Production",
+    "database_path": "D:\\Windows\\System32\\Investopedia\\databases\\product_database",
+    "database_size": "56000",
+    "cluster": "investopediadb4"
+  },
+  "Thefreedictionary.com": {
+    "name": "Thefreedictionary Account database",
+    "description": "This is the database for Thefreedictionary's account data",
+    "environment": "Development",
+    "database_path": "E:\\Windows\\System32\\Thefreedictionary\\databases\\account_database",
+    "database_size": "39000",
+    "cluster": "tfddb3"
+  },
+  "Washington.edu": {
+    "name": "Washington Account database",
+    "description": "This is the database for Washington's account data",
+    "environment": "Development",
+    "database_path": "D:\\Windows\\System32\\Washington\\databases\\account_database",
+    "database_size": "43000",
+    "cluster": "washingtondb5"
+  },
+  "United.com": {
+    "name": "United App database",
+    "description": "This is the database for United's app data",
+    "environment": "Production",
+    "database_path": "E:\\Windows\\System32\\United\\databases\\app_database",
+    "database_size": "27000",
+    "cluster": "uniteddb4"
+  },
+  "apache.org": {
+    "name": "Apache App database",
+    "description": "This is the database for Apache's app data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Apache/app_data/databases/app_database",
+    "database_size": "53000",
+    "cluster": "apachedb0"
+  },
+  "Capitalsafety.com": {
+    "name": "Capitalsafety Product database",
+    "description": "This is the database for Capitalsafety's product data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Capitalsafety/app_data/databases/product_database",
+    "database_size": "29000",
+    "cluster": "capitaldb4"
+  },
+  "Reverso.net": {
+    "name": "Reverso App database",
+    "description": "This is the database for Reverso's app data",
+    "environment": "Development",
+    "database_path": "G:\\Windows\\System32\\Reverso\\databases\\app_database",
+    "database_size": "29000",
+    "cluster": "reversodb4"
+  },
+  "Britannica.com": {
+    "name": "Britannica Account database",
+    "description": "This is the database for Britannica's account data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Britannica/app_data/databases/account_database",
+    "database_size": "26000",
+    "cluster": "britannicadb0"
+  },
+  "Space.com": {
+    "name": "Space Product database",
+    "description": "This is the database for Space's product data",
+    "environment": "Development",
+    "database_path": "D:\\Windows\\System32\\Space\\databases\\product_database",
+    "database_size": "42000",
+    "cluster": "spacedb3"
+  },
+  "Abcya.com": {
+    "name": "Abcya Product database",
+    "description": "This is the database for Abcya's product data",
+    "environment": "Production",
+    "database_path": "G:\\Windows\\System32\\Abcya\\databases\\product_database",
+    "database_size": "50000",
+    "cluster": "abcyadb0"
+  },
+  "Raspberrypi.org": {
+    "name": "Raspberrypi App database",
+    "description": "This is the database for Raspberrypi's app data",
+    "environment": "Production",
+    "database_path": "G:\\Windows\\System32\\Raspberrypi\\databases\\app_database",
+    "database_size": "60000",
+    "cluster": "raspberrypidb1"
+  },
+  "Rhymezone.com": {
+    "name": "Rhymezone Product database",
+    "description": "This is the database for Rhymezone's product data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Rhymezone/app_data/databases/product_database",
+    "database_size": "44000",
+    "cluster": "rhymezonedb0"
+  },
+  "Sitepoint.com": {
+    "name": "Sitepoint App database",
+    "description": "This is the database for Sitepoint's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Sitepoint/app_data/databases/app_database",
+    "database_size": "43000",
+    "cluster": "sitepointdb3"
+  },
+  "Citationmachine.net": {
+    "name": "Citationmachine App database",
+    "description": "This is the database for Citationmachine's app data",
+    "environment": "Production",
+    "database_path": "E:\\Windows\\System32\\Citationmachine\\databases\\app_database",
+    "database_size": "57000",
+    "cluster": "citationdb1"
+  },
+  "Irishtimes.com": {
+    "name": "Irishtimes App database",
+    "description": "This is the database for Irishtimes's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Irishtimes/app_data/databases/app_database",
+    "database_size": "21000",
+    "cluster": "irishtimesdb3"
+  },
+  "Easybib.com": {
+    "name": "Easybib Product database",
+    "description": "This is the database for Easybib's product data",
+    "environment": "Production",
+    "database_path": "G:\\Windows\\System32\\Easybib\\databases\\product_database",
+    "database_size": "45000",
+    "cluster": "easybibdb5"
+  },
+  "Indiatimes.com": {
+    "name": "Indiatimes Account database",
+    "description": "This is the database for Indiatimes's account data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Indiatimes/app_data/databases/account_database",
+    "database_size": "58000",
+    "cluster": "indiatimesdb3"
+  },
+  "Jal.co.jp": {
+    "name": "Jal Account database",
+    "description": "This is the database for Jal's account data",
+    "environment": "Test",
+    "database_path": "D:\\Windows\\System32\\Jal\\databases\\account_database",
+    "database_size": "26000",
+    "cluster": "jaldb5"
+  },
+  "Nba.com": {
+    "name": "Nba Account database",
+    "description": "This is the database for Nba's account data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Nba/app_data/databases/account_database",
+    "database_size": "23000",
+    "cluster": "nbadb1"
+  },
+  "Pinkbike.com": {
+    "name": "Pinkbike App database",
+    "description": "This is the database for Pinkbike's app data",
+    "environment": "Production",
+    "database_path": "/usr/bin/Pinkbike/app_data/databases/app_database",
+    "database_size": "40000",
+    "cluster": "pinkbikedb1"
+  },
+  "Fangraphs.com": {
+    "name": "Fangraphs App database",
+    "description": "This is the database for Fangraphs's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Fangraphs/app_data/databases/app_database",
+    "database_size": "27000",
+    "cluster": "fangraphsdb5"
+  },
+  "Hattrick.org": {
+    "name": "Hattrick Account database",
+    "description": "This is the database for Hattrick's account data",
+    "environment": "Development",
+    "database_path": "/usr/bin/Hattrick/app_data/databases/account_database",
+    "database_size": "27000",
+    "cluster": "hattrickdb5"
+  },
+  "Hkjc.com": {
+    "name": "Hkjc App database",
+    "description": "This is the database for Hkjc's app data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Hkjc/app_data/databases/app_database",
+    "database_size": "59000",
+    "cluster": "hkjcdb1"
+  },
+  "seatguru.com": {
+    "name": "Seatguru Account database",
+    "description": "This is the database for Seatguru's account data",
+    "environment": "Test",
+    "database_path": "/usr/bin/Seatguru/app_data/databases/account_database",
+    "database_size": "46000",
+    "cluster": "seatgurudb5"
+  }
+}

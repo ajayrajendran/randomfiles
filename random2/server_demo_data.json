@@ -1,0 +1,4216 @@
+{
+  "yellowpages.com": [
+    {
+      "host_name": "yellowpagesweb5",
+      "description": "This is the web server for Yellow Pages website",
+      "fqdn": "yellowpages.com",
+      "environment": "Development",
+      "assigned_id": 525,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 10,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.4",
+      "ip_addresses": [
+        "205.243.79.20",
+        "35.94.175.82"
+      ],
+      "zone": "New Mexico Zone J"
+    },
+    {
+      "host_name": "yellowproxy2",
+      "description": "This is the reverse proxy server for Yellow Pages website",
+      "fqdn": "yellowpages.com",
+      "environment": "Test",
+      "assigned_id": 170,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 20,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.1",
+      "ip_addresses": [
+        "81.62.221.181",
+        "213.140.238.162"
+      ],
+      "zone": "Kyoto Zone O"
+    },
+    {
+      "host_name": "yellowpagesapp0",
+      "description": "This is the app server for Yellow Pages website",
+      "fqdn": "yellowpages.com",
+      "environment": "Test",
+      "assigned_id": 182,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 119,
+      "storage_used_gb": 68,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.3-1611",
+      "ip_addresses": [
+        "124.194.112.171",
+        "7.64.233.86"
+      ],
+      "zone": "Washington Zone E"
+    },
+    {
+      "host_name": "yellowpagesdb3",
+      "description": "This is the database server for Yellow Pages website",
+      "fqdn": "yellowpages.com",
+      "environment": "Production",
+      "assigned_id": 857,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 265,
+      "storage_used_gb": 133,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "199.75.244.165",
+        "8.241.147.156"
+      ],
+      "zone": "Hong Kong Zone I"
+    }
+  ],
+  "airbnb.com": [
+    {
+      "host_name": "airbnbweb3",
+      "description": "This is the web server for Airbnb, Inc.",
+      "fqdn": "airbnb.com",
+      "environment": "Development",
+      "assigned_id": 985,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 12,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "45.142.121.118",
+        "92.27.19.113"
+      ],
+      "zone": "Seattle Zone L"
+    },
+    {
+      "host_name": "airbnbproxy1",
+      "description": "This is the reverse proxy server for Airbnb, Inc.",
+      "fqdn": "airbnb.com",
+      "environment": "Production",
+      "assigned_id": 461,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 5,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "9.12.163.139",
+        "5.99.119.26"
+      ],
+      "zone": "Chicago Zone 10"
+    },
+    {
+      "host_name": "airbnbapp1",
+      "description": "This is the app server for Airbnb, Inc.",
+      "fqdn": "airbnb.com",
+      "environment": "Development",
+      "assigned_id": 686,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 338,
+      "storage_used_gb": 149,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "220.167.180.50",
+        "5.53.254.223"
+      ],
+      "zone": "Hong Kong Zone 4"
+    },
+    {
+      "host_name": "airbnbdb0",
+      "description": "This is the database server for Airbnb, Inc.",
+      "fqdn": "airbnb.com",
+      "environment": "Test",
+      "assigned_id": 268,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 410,
+      "storage_used_gb": 204,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "209.101.179.7",
+        "213.29.80.137"
+      ],
+      "zone": "Hong Kong Zone J"
+    }
+  ],
+  "alexa.com": [
+    {
+      "host_name": "alexaweb4",
+      "description": "This is the web server for Alexa website",
+      "fqdn": "alexa.com",
+      "environment": "Test",
+      "assigned_id": 515,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 12,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "46.218.23.145",
+        "44.43.196.37"
+      ],
+      "zone": "New Delhi Zone 3"
+    },
+    {
+      "host_name": "alexaproxy3",
+      "description": "This is the reverse proxy server for Alexa website",
+      "fqdn": "alexa.com",
+      "environment": "Development",
+      "assigned_id": 608,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "5.137.13.77",
+        "2.238.249.250"
+      ],
+      "zone": "Los Angeles Zone J"
+    },
+    {
+      "host_name": "alexaapp5",
+      "description": "This is the app server for Alexa website",
+      "fqdn": "alexa.com",
+      "environment": "Test",
+      "assigned_id": 952,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 370,
+      "storage_used_gb": 171,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "5.171.197.98",
+        "104.241.166.29"
+      ],
+      "zone": "New York Zone G"
+    },
+    {
+      "host_name": "alexadb5",
+      "description": "This is the database server for Alexa website",
+      "fqdn": "alexa.com",
+      "environment": "Development",
+      "assigned_id": 421,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 264,
+      "storage_used_gb": 130,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "3.4.182.220",
+        "8.206.217.76"
+      ],
+      "zone": "New York Zone A"
+    }
+  ],
+  "nih.gov": [
+    {
+      "host_name": "nihweb2",
+      "description": "This is the web server for National Institutes of Health",
+      "fqdn": "nih.gov",
+      "environment": "Production",
+      "assigned_id": 416,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "48.199.47.234",
+        "1.170.185.46"
+      ],
+      "zone": "Kyoto Zone M"
+    },
+    {
+      "host_name": "nihproxy0",
+      "description": "This is the reverse proxy server for National Institutes of Health",
+      "fqdn": "nih.gov",
+      "environment": "Production",
+      "assigned_id": 889,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "8.166.14.147",
+        "218.27.231.97"
+      ],
+      "zone": "Hong Kong Zone J"
+    },
+    {
+      "host_name": "nihapp0",
+      "description": "This is the app server for National Institutes of Health",
+      "fqdn": "nih.gov",
+      "environment": "Development",
+      "assigned_id": 600,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 176,
+      "storage_used_gb": 75,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "38.162.176.17",
+        "26.54.50.228"
+      ],
+      "zone": "Washington Zone 2"
+    },
+    {
+      "host_name": "nihdb1",
+      "description": "This is the database server for National Institutes of Health",
+      "fqdn": "nih.gov",
+      "environment": "Test",
+      "assigned_id": 959,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 250,
+      "storage_used_gb": 124,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "5.30.99.219",
+        "210.204.83.7"
+      ],
+      "zone": "New York Zone 2"
+    }
+  ],
+  "ancestry.com": [
+    {
+      "host_name": "ancestryweb4",
+      "description": "This is the web server for Ancestry website",
+      "fqdn": "ancestry.com",
+      "environment": "Production",
+      "assigned_id": 814,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 10,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "211.66.143.118",
+        "75.148.123.203"
+      ],
+      "zone": "New Mexico Zone 5"
+    },
+    {
+      "host_name": "ancestryproxy1",
+      "description": "This is the reverse proxy server for Ancestry website",
+      "fqdn": "ancestry.com",
+      "environment": "Test",
+      "assigned_id": 298,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 4,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "6.61.97.234",
+        "215.82.207.98"
+      ],
+      "zone": "Baltimore Zone L"
+    },
+    {
+      "host_name": "ancestryapp0",
+      "description": "This is the app server for Ancestry website",
+      "fqdn": "ancestry.com",
+      "environment": "Test",
+      "assigned_id": 966,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 252,
+      "storage_used_gb": 136,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "1.107.218.234",
+        "4.222.86.249"
+      ],
+      "zone": "New Delhi Zone E"
+    },
+    {
+      "host_name": "ancestrydb4",
+      "description": "This is the database server for Ancestry website",
+      "fqdn": "ancestry.com",
+      "environment": "Production",
+      "assigned_id": 825,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 207,
+      "storage_used_gb": 103,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "216.225.221.57",
+        "81.24.153.3"
+      ],
+      "zone": "Baltimore Zone 1"
+    }
+  ],
+  "battle.net": [
+    {
+      "host_name": "battleweb5",
+      "description": "This is the web server for Blizzard battle.net website",
+      "fqdn": "battle.net",
+      "environment": "Production",
+      "assigned_id": 154,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "198.85.180.115",
+        "9.178.107.47"
+      ],
+      "zone": "New York Zone 9"
+    },
+    {
+      "host_name": "battleproxy2",
+      "description": "This is the reverse proxy server for Blizzard battle.net website",
+      "fqdn": "battle.net",
+      "environment": "Test",
+      "assigned_id": 646,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "64.232.60.45",
+        "7.242.194.74"
+      ],
+      "zone": "Kyoto Zone 8"
+    },
+    {
+      "host_name": "battleapp5",
+      "description": "This is the app server for Blizzard battle.net website",
+      "fqdn": "battle.net",
+      "environment": "Production",
+      "assigned_id": 655,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 321,
+      "storage_used_gb": 170,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "219.146.88.209",
+        "209.83.170.42"
+      ],
+      "zone": "Dallas Zone 5"
+    },
+    {
+      "host_name": "battledb3",
+      "description": "This is the database server for Blizzard battle.net website",
+      "fqdn": "battle.net",
+      "environment": "Test",
+      "assigned_id": 24,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 414,
+      "storage_used_gb": 209,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "2.102.64.19",
+        "20.102.152.170"
+      ],
+      "zone": "San Franciso Zone P"
+    }
+  ],
+  "minecraft.net": [
+    {
+      "host_name": "minecraftweb0",
+      "description": "This is the web server for Minecraft website",
+      "fqdn": "minecraft.net",
+      "environment": "Development",
+      "assigned_id": 816,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 5,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "83.81.61.50",
+        "49.193.154.217"
+      ],
+      "zone": "Dallas Zone P"
+    },
+    {
+      "host_name": "minecraftproxy0",
+      "description": "This is the reverse proxy server for Minecraft website",
+      "fqdn": "minecraft.net",
+      "environment": "Development",
+      "assigned_id": 521,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.2",
+      "ip_addresses": [
+        "111.216.174.150",
+        "201.60.238.87"
+      ],
+      "zone": "Chicago Zone N"
+    },
+    {
+      "host_name": "minecraftapp1",
+      "description": "This is the app server for Minecraft website",
+      "fqdn": "minecraft.net",
+      "environment": "Production",
+      "assigned_id": 357,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 318,
+      "storage_used_gb": 165,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7.3",
+      "ip_addresses": [
+        "211.199.196.148",
+        "216.179.85.36"
+      ],
+      "zone": "Singapore Zone 4"
+    },
+    {
+      "host_name": "minecraftdb0",
+      "description": "This is the database server for Minecraft website",
+      "fqdn": "minecraft.net",
+      "environment": "Production",
+      "assigned_id": 466,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 280,
+      "storage_used_gb": 140,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Celeron",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "27.176.159.205",
+        "116.142.45.220"
+      ],
+      "zone": "New York Zone 7"
+    }
+  ],
+  "epicgames.com": [
+    {
+      "host_name": "epicgamesweb3",
+      "description": "This is the web server for Epic Games, Inc.",
+      "fqdn": "epicgames.com",
+      "environment": "Test",
+      "assigned_id": 147,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.04",
+      "ip_addresses": [
+        "221.55.255.218",
+        "20.71.125.96"
+      ],
+      "zone": "New York Zone O"
+    },
+    {
+      "host_name": "epicgamesproxy0",
+      "description": "This is the reverse proxy server for Epic Games, Inc.",
+      "fqdn": "epicgames.com",
+      "environment": "Production",
+      "assigned_id": 289,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "208.126.95.177",
+        "205.113.92.35"
+      ],
+      "zone": "Boston Zone 7"
+    },
+    {
+      "host_name": "epicgamesapp2",
+      "description": "This is the app server for Epic Games, Inc.",
+      "fqdn": "epicgames.com",
+      "environment": "Development",
+      "assigned_id": 412,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 119,
+      "storage_used_gb": 63,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "215.110.166.112",
+        "207.240.86.85"
+      ],
+      "zone": "Tokyo Zone E"
+    },
+    {
+      "host_name": "epicgamesdb4",
+      "description": "This is the database server for Epic Games, Inc.",
+      "fqdn": "epicgames.com",
+      "environment": "Development",
+      "assigned_id": 586,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 260,
+      "storage_used_gb": 128,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "6.65.201.214",
+        "5.180.158.226"
+      ],
+      "zone": "Dallas Zone N"
+    }
+  ],
+  "starry.com": [
+    {
+      "host_name": "starryweb1",
+      "description": "This is the web server for Starry Internet",
+      "fqdn": "starry.com",
+      "environment": "Development",
+      "assigned_id": 328,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "24.42.152.178",
+        "26.14.197.117"
+      ],
+      "zone": "Hong Kong Zone H"
+    },
+    {
+      "host_name": "starryproxy1",
+      "description": "This is the reverse proxy server for Starry Internet",
+      "fqdn": "starry.com",
+      "environment": "Production",
+      "assigned_id": 302,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "68.122.178.98",
+        "223.108.90.160"
+      ],
+      "zone": "Baltimore Zone 1"
+    },
+    {
+      "host_name": "starryapp1",
+      "description": "This is the app server for Starry Internet",
+      "fqdn": "starry.com",
+      "environment": "Production",
+      "assigned_id": 164,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 165,
+      "storage_used_gb": 75,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "209.194.86.175",
+        "201.65.242.110"
+      ],
+      "zone": "New Delhi Zone O"
+    },
+    {
+      "host_name": "starrydb2",
+      "description": "This is the database server for Starry Internet",
+      "fqdn": "starry.com",
+      "environment": "Development",
+      "assigned_id": 619,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 378,
+      "storage_used_gb": 188,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Debian",
+      "operating_system_version": "8",
+      "ip_addresses": [
+        "1.27.95.84",
+        "25.78.249.228"
+      ],
+      "zone": "Singapore Zone F"
+    }
+  ],
+  "cheddar.com": [
+    {
+      "host_name": "cheddarweb1",
+      "description": "This is the web server for Cheddar (TV Channel)",
+      "fqdn": "cheddar.com",
+      "environment": "Test",
+      "assigned_id": 526,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 10,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "211.185.67.113",
+        "45.117.230.3"
+      ],
+      "zone": "Washington Zone P"
+    },
+    {
+      "host_name": "cheddarproxy3",
+      "description": "This is the reverse proxy server for Cheddar (TV Channel)",
+      "fqdn": "cheddar.com",
+      "environment": "Development",
+      "assigned_id": 76,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 11,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "7.31.15.124",
+        "214.60.182.64"
+      ],
+      "zone": "Tokyo Zone P"
+    },
+    {
+      "host_name": "cheddarapp0",
+      "description": "This is the app server for Cheddar (TV Channel)",
+      "fqdn": "cheddar.com",
+      "environment": "Development",
+      "assigned_id": 905,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 378,
+      "storage_used_gb": 183,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "22.207.221.219",
+        "205.141.136.99"
+      ],
+      "zone": "Washington Zone O"
+    },
+    {
+      "host_name": "cheddardb4",
+      "description": "This is the database server for Cheddar (TV Channel)",
+      "fqdn": "cheddar.com",
+      "environment": "Development",
+      "assigned_id": 214,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 343,
+      "storage_used_gb": 172,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "214.77.116.154",
+        "201.186.236.166"
+      ],
+      "zone": "New Mexico Zone 4"
+    }
+  ],
+  "nanit.com": [
+    {
+      "host_name": "nanitweb1",
+      "description": "This is the web server for Nanit",
+      "fqdn": "nanit.com",
+      "environment": "Test",
+      "assigned_id": 860,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "115.149.42.169",
+        "70.151.225.197"
+      ],
+      "zone": "Los Angeles Zone E"
+    },
+    {
+      "host_name": "nanitproxy0",
+      "description": "This is the reverse proxy server for Nanit",
+      "fqdn": "nanit.com",
+      "environment": "Production",
+      "assigned_id": 18,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 6,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "5.140.148.92",
+        "214.71.215.240"
+      ],
+      "zone": "Singapore Zone M"
+    },
+    {
+      "host_name": "nanitapp2",
+      "description": "This is the app server for Nanit",
+      "fqdn": "nanit.com",
+      "environment": "Development",
+      "assigned_id": 358,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 329,
+      "storage_used_gb": 171,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "204.203.116.235",
+        "222.135.137.165"
+      ],
+      "zone": "Baltimore Zone 6"
+    },
+    {
+      "host_name": "nanitdb4",
+      "description": "This is the database server for Nanit",
+      "fqdn": "nanit.com",
+      "environment": "Production",
+      "assigned_id": 879,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 293,
+      "storage_used_gb": 147,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "219.142.48.191",
+        "24.252.238.111"
+      ],
+      "zone": "Washington Zone M"
+    }
+  ],
+  "truebill.com": [
+    {
+      "host_name": "truebillweb1",
+      "description": "This is the web server for Truebill",
+      "fqdn": "truebill.com",
+      "environment": "Production",
+      "assigned_id": 8,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "84.26.25.237",
+        "61.89.221.55"
+      ],
+      "zone": "San Franciso Zone O"
+    },
+    {
+      "host_name": "truebillproxy4",
+      "description": "This is the reverse proxy server for Truebill",
+      "fqdn": "truebill.com",
+      "environment": "Production",
+      "assigned_id": 1490,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 4,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.04",
+      "ip_addresses": [
+        "204.144.47.111",
+        "7.42.131.237"
+      ],
+      "zone": "Chicago Zone 9"
+    },
+    {
+      "host_name": "truebillapp5",
+      "description": "This is the app server for Truebill",
+      "fqdn": "truebill.com",
+      "environment": "Test",
+      "assigned_id": 138,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 172,
+      "storage_used_gb": 94,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7.3",
+      "ip_addresses": [
+        "6.163.24.115",
+        "106.33.61.197"
+      ],
+      "zone": "New Delhi Zone 2"
+    },
+    {
+      "host_name": "truebilldb0",
+      "description": "This is the database server for Truebill",
+      "fqdn": "truebill.com",
+      "environment": "Production",
+      "assigned_id": 365,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 232,
+      "storage_used_gb": 117,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "3.101.120.54",
+        "201.29.31.211"
+      ],
+      "zone": "Tokyo Zone 3"
+    }
+  ],
+  "Kijiji.ca": [
+    {
+      "host_name": "kijijiweb5",
+      "description": "This is the web server for Kijiji",
+      "fqdn": "Kijiji.ca",
+      "environment": "Development",
+      "assigned_id": 548,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "50.107.249.34",
+        "47.153.25.249"
+      ],
+      "zone": "Hong Kong Zone G"
+    },
+    {
+      "host_name": "kijijiproxy2",
+      "description": "This is the reverse proxy server for Kijiji",
+      "fqdn": "Kijiji.ca",
+      "environment": "Production",
+      "assigned_id": 791,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Debian",
+      "operating_system_version": "8",
+      "ip_addresses": [
+        "34.62.76.144",
+        "3.251.238.110"
+      ],
+      "zone": "Kyoto Zone 3"
+    },
+    {
+      "host_name": "kijijiapp2",
+      "description": "This is the app server for Kijiji",
+      "fqdn": "Kijiji.ca",
+      "environment": "Development",
+      "assigned_id": 468,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 269,
+      "storage_used_gb": 143,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80186",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "9.42.80.45",
+        "4.221.40.134"
+      ],
+      "zone": "Singapore Zone I"
+    },
+    {
+      "host_name": "kijijidb0",
+      "description": "This is the database server for Kijiji",
+      "fqdn": "Kijiji.ca",
+      "environment": "Production",
+      "assigned_id": 716,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 248,
+      "storage_used_gb": 126,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "41.46.8.72",
+        "215.233.224.125"
+      ],
+      "zone": "New Delhi Zone 9"
+    }
+  ],
+  "Apartmenttherapy.com": [
+    {
+      "host_name": "apartmentweb1",
+      "description": "This is the web server for Apartment Therapy",
+      "fqdn": "Apartmenttherapy.com",
+      "environment": "Development",
+      "assigned_id": 767,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "18.220.100.66",
+        "9.206.146.1"
+      ],
+      "zone": "Hong Kong Zone F"
+    },
+    {
+      "host_name": "apartmentproxy5",
+      "description": "This is the reverse proxy server for Apartment Therapy",
+      "fqdn": "Apartmenttherapy.com",
+      "environment": "Test",
+      "assigned_id": 176,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 6,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "12.38.78.87",
+        "203.56.182.138"
+      ],
+      "zone": "Tokyo Zone I"
+    },
+    {
+      "host_name": "apartmentapp1",
+      "description": "This is the app server for Apartment Therapy",
+      "fqdn": "Apartmenttherapy.com",
+      "environment": "Test",
+      "assigned_id": 122,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 389,
+      "storage_used_gb": 196,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "223.144.217.157",
+        "206.65.176.70"
+      ],
+      "zone": "Tokyo Zone G"
+    },
+    {
+      "host_name": "apartmentdb0",
+      "description": "This is the database server for Apartment Therapy",
+      "fqdn": "Apartmenttherapy.com",
+      "environment": "Development",
+      "assigned_id": 141,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 364,
+      "storage_used_gb": 183,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80186",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "216.251.71.219",
+        "109.28.211.182"
+      ],
+      "zone": "Los Angeles Zone 2"
+    }
+  ],
+  "Phonearena.com": [
+    {
+      "host_name": "phonearenaweb1",
+      "description": "This is the web server for Phone Arena website",
+      "fqdn": "Phonearena.com",
+      "environment": "Test",
+      "assigned_id": 872,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 5,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "9.208.88.16",
+        "40.228.196.158"
+      ],
+      "zone": "Washington Zone F"
+    },
+    {
+      "host_name": "phoneproxy2",
+      "description": "This is the reverse proxy server for Phone Arena website",
+      "fqdn": "Phonearena.com",
+      "environment": "Test",
+      "assigned_id": 746,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 4,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "4.206.145.63",
+        "7.254.93.114"
+      ],
+      "zone": "Singapore Zone D"
+    },
+    {
+      "host_name": "phonearenaapp4",
+      "description": "This is the app server for Phone Arena website",
+      "fqdn": "Phonearena.com",
+      "environment": "Production",
+      "assigned_id": 282,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 337,
+      "storage_used_gb": 164,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "199.114.156.121",
+        "199.125.13.106"
+      ],
+      "zone": "Dallas Zone 9"
+    },
+    {
+      "host_name": "phonearenadb2",
+      "description": "This is the database server for Phone Arena website",
+      "fqdn": "Phonearena.com",
+      "environment": "Test",
+      "assigned_id": 48,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 220,
+      "storage_used_gb": 110,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.3-1611",
+      "ip_addresses": [
+        "209.218.67.83",
+        "199.44.236.224"
+      ],
+      "zone": "Singapore Zone K"
+    }
+  ],
+  "Bonappetit.com": [
+    {
+      "host_name": "bonappetitweb0",
+      "description": "This is the web server for Bon apetit website",
+      "fqdn": "Bonappetit.com",
+      "environment": "Test",
+      "assigned_id": 574,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 4,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "4.169.201.182",
+        "68.215.140.179"
+      ],
+      "zone": "Washington Zone E"
+    },
+    {
+      "host_name": "bonproxy2",
+      "description": "This is the reverse proxy server for Bon apetit website",
+      "fqdn": "Bonappetit.com",
+      "environment": "Test",
+      "assigned_id": 322,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "207.141.233.36",
+        "31.149.86.105"
+      ],
+      "zone": "New York Zone J"
+    },
+    {
+      "host_name": "bonappetitapp5",
+      "description": "This is the app server for Bon apetit website",
+      "fqdn": "Bonappetit.com",
+      "environment": "Development",
+      "assigned_id": 649,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 205,
+      "storage_used_gb": 94,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Celeron",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.10",
+      "ip_addresses": [
+        "6.115.68.251",
+        "4.72.235.112"
+      ],
+      "zone": "New Delhi Zone 2"
+    },
+    {
+      "host_name": "bonappetitdb3",
+      "description": "This is the database server for Bon apetit website",
+      "fqdn": "Bonappetit.com",
+      "environment": "Test",
+      "assigned_id": 77,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 352,
+      "storage_used_gb": 176,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "17.163.204.156",
+        "214.85.2.221"
+      ],
+      "zone": "Boston Zone M"
+    }
+  ],
+  "Realsimple.com": [
+    {
+      "host_name": "realsimpleweb3",
+      "description": "This is the web server for Real Simple",
+      "fqdn": "Realsimple.com",
+      "environment": "Test",
+      "assigned_id": 279,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "6.50.62.76",
+        "13.76.39.85"
+      ],
+      "zone": "New Delhi Zone O"
+    },
+    {
+      "host_name": "realproxy5",
+      "description": "This is the reverse proxy server for Real Simple",
+      "fqdn": "Realsimple.com",
+      "environment": "Test",
+      "assigned_id": 576,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 12,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "213.176.39.224",
+        "215.57.245.109"
+      ],
+      "zone": "Seattle Zone 2"
+    },
+    {
+      "host_name": "realsimpleapp3",
+      "description": "This is the app server for Real Simple",
+      "fqdn": "Realsimple.com",
+      "environment": "Production",
+      "assigned_id": 978,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 151,
+      "storage_used_gb": 66,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "88.109.160.29",
+        "5.0.112.119"
+      ],
+      "zone": "Boston Zone 6"
+    },
+    {
+      "host_name": "realsimpledb2",
+      "description": "This is the database server for Real Simple",
+      "fqdn": "Realsimple.com",
+      "environment": "Production",
+      "assigned_id": 475,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 248,
+      "storage_used_gb": 126,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Debian",
+      "operating_system_version": "8",
+      "ip_addresses": [
+        "2.24.59.250",
+        "109.118.117.74"
+      ],
+      "zone": "Baltimore Zone 4"
+    }
+  ],
+  "Opendns.com": [
+    {
+      "host_name": "opendnsweb5",
+      "description": "This is the web server for openDNS",
+      "fqdn": "Opendns.com",
+      "environment": "Development",
+      "assigned_id": 12,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "126.140.56.252",
+        "7.134.109.69"
+      ],
+      "zone": "Singapore Zone 1"
+    },
+    {
+      "host_name": "opendnsproxy4",
+      "description": "This is the reverse proxy server for openDNS",
+      "fqdn": "Opendns.com",
+      "environment": "Development",
+      "assigned_id": 638,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 10,
+      "storage_used_gb": 4,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "114.128.61.81",
+        "199.41.182.231"
+      ],
+      "zone": "New Mexico Zone P"
+    },
+    {
+      "host_name": "opendnsapp3",
+      "description": "This is the app server for openDNS",
+      "fqdn": "Opendns.com",
+      "environment": "Test",
+      "assigned_id": 553,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 128,
+      "storage_used_gb": 65,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.04",
+      "ip_addresses": [
+        "5.53.89.159",
+        "8.218.122.137"
+      ],
+      "zone": "Los Angeles Zone A"
+    },
+    {
+      "host_name": "opendnsdb0",
+      "description": "This is the database server for openDNS",
+      "fqdn": "Opendns.com",
+      "environment": "Test",
+      "assigned_id": 662,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 257,
+      "storage_used_gb": 128,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "9.34.35.44",
+        "204.204.222.171"
+      ],
+      "zone": "Washington Zone 8"
+    }
+  ],
+  "Trustedreviews.com": [
+    {
+      "host_name": "trustedweb2",
+      "description": "This is the web server for Trusted Reviews",
+      "fqdn": "Trustedreviews.com",
+      "environment": "Test",
+      "assigned_id": 230,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 10,
+      "storage_used_gb": 3,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "1.158.250.72",
+        "3.188.12.229"
+      ],
+      "zone": "New York Zone 2"
+    },
+    {
+      "host_name": "trustedproxy0",
+      "description": "This is the reverse proxy server for Trusted Reviews",
+      "fqdn": "Trustedreviews.com",
+      "environment": "Test",
+      "assigned_id": 514,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80186",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "4.69.115.2",
+        "211.235.92.73"
+      ],
+      "zone": "Los Angeles Zone G"
+    },
+    {
+      "host_name": "trustedapp5",
+      "description": "This is the app server for Trusted Reviews",
+      "fqdn": "Trustedreviews.com",
+      "environment": "Development",
+      "assigned_id": 823,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 271,
+      "storage_used_gb": 145,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "214.78.40.158",
+        "3.242.104.247"
+      ],
+      "zone": "Dallas Zone D"
+    },
+    {
+      "host_name": "trusteddb2",
+      "description": "This is the database server for Trusted Reviews",
+      "fqdn": "Trustedreviews.com",
+      "environment": "Development",
+      "assigned_id": 135,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 403,
+      "storage_used_gb": 200,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "1.251.22.187",
+        "114.245.19.103"
+      ],
+      "zone": "Kyoto Zone K"
+    }
+  ],
+  "Edmunds.com": [
+    {
+      "host_name": "edmundsweb3",
+      "description": "This is the web server for Edmunds.com Inc.",
+      "fqdn": "Edmunds.com",
+      "environment": "Test",
+      "assigned_id": 385,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 10,
+      "storage_used_gb": 3,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "4.40.103.224",
+        "3.112.0.60"
+      ],
+      "zone": "Hong Kong Zone 7"
+    },
+    {
+      "host_name": "edmundsproxy1",
+      "description": "This is the reverse proxy server for Edmunds.com Inc.",
+      "fqdn": "Edmunds.com",
+      "environment": "Test",
+      "assigned_id": 706,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.1",
+      "ip_addresses": [
+        "2.129.154.231",
+        "201.30.224.78"
+      ],
+      "zone": "Hong Kong Zone 9"
+    },
+    {
+      "host_name": "edmundsapp5",
+      "description": "This is the app server for Edmunds.com Inc.",
+      "fqdn": "Edmunds.com",
+      "environment": "Development",
+      "assigned_id": 447,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 319,
+      "storage_used_gb": 155,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "202.68.23.55",
+        "81.201.11.89"
+      ],
+      "zone": "Boston Zone 8"
+    },
+    {
+      "host_name": "edmundsdb1",
+      "description": "This is the database server for Edmunds.com Inc.",
+      "fqdn": "Edmunds.com",
+      "environment": "Production",
+      "assigned_id": 1235,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 388,
+      "storage_used_gb": 193,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "5.185.238.163",
+        "95.48.203.144"
+      ],
+      "zone": "Seattle Zone E"
+    }
+  ],
+  "Tomsguide.com": [
+    {
+      "host_name": "tomsguideweb0",
+      "description": "This is the web server for Tom's Guide",
+      "fqdn": "Tomsguide.com",
+      "environment": "Development",
+      "assigned_id": 554,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 20,
+      "storage_used_gb": 9,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.1",
+      "ip_addresses": [
+        "5.95.28.149",
+        "3.244.56.32"
+      ],
+      "zone": "Baltimore Zone N"
+    },
+    {
+      "host_name": "tomsguideproxy3",
+      "description": "This is the reverse proxy server for Tom's Guide",
+      "fqdn": "Tomsguide.com",
+      "environment": "Production",
+      "assigned_id": 843,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 5,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.1",
+      "ip_addresses": [
+        "4.218.42.185",
+        "223.155.12.169"
+      ],
+      "zone": "Los Angeles Zone N"
+    },
+    {
+      "host_name": "tomsguideapp3",
+      "description": "This is the app server for Tom's Guide",
+      "fqdn": "Tomsguide.com",
+      "environment": "Test",
+      "assigned_id": 533,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 193,
+      "storage_used_gb": 82,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "221.26.244.6",
+        "24.74.217.253"
+      ],
+      "zone": "Singapore Zone 7"
+    },
+    {
+      "host_name": "tomsguidedb1",
+      "description": "This is the database server for Tom's Guide",
+      "fqdn": "Tomsguide.com",
+      "environment": "Development",
+      "assigned_id": 51,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 221,
+      "storage_used_gb": 109,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "5.147.194.175",
+        "219.56.100.61"
+      ],
+      "zone": "Seattle Zone N"
+    }
+  ],
+  "Myfitnesspal.com": [
+    {
+      "host_name": "miweb1",
+      "description": "This is the web server for MyFitnessPal, Inc.",
+      "fqdn": "Myfitnesspal.com",
+      "environment": "Production",
+      "assigned_id": 516,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.3",
+      "ip_addresses": [
+        "87.142.103.214",
+        "219.133.55.61"
+      ],
+      "zone": "Kyoto Zone A"
+    },
+    {
+      "host_name": "miproxy4",
+      "description": "This is the reverse proxy server for MyFitnessPal, Inc.",
+      "fqdn": "Myfitnesspal.com",
+      "environment": "Production",
+      "assigned_id": 807,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "4.182.120.154",
+        "118.201.239.77"
+      ],
+      "zone": "Los Angeles Zone P"
+    },
+    {
+      "host_name": "miapp0",
+      "description": "This is the app server for MyFitnessPal, Inc.",
+      "fqdn": "Myfitnesspal.com",
+      "environment": "Production",
+      "assigned_id": 967,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 321,
+      "storage_used_gb": 166,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "50.164.175.235",
+        "46.121.234.253"
+      ],
+      "zone": "New Mexico Zone 9"
+    },
+    {
+      "host_name": "myfitnesspaldb5",
+      "description": "This is the database server for MyFitnessPal, Inc.",
+      "fqdn": "Myfitnesspal.com",
+      "environment": "Production",
+      "assigned_id": 345,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 421,
+      "storage_used_gb": 211,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "117.193.15.157",
+        "94.19.59.194"
+      ],
+      "zone": "Baltimore Zone 9"
+    }
+  ],
+  "Archive.org": [
+    {
+      "host_name": "archiveweb2",
+      "description": "This is the web server for Internet Archive",
+      "fqdn": "Archive.org",
+      "environment": "Development",
+      "assigned_id": 598,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.1",
+      "ip_addresses": [
+        "209.124.71.194",
+        "223.176.35.238"
+      ],
+      "zone": "Kyoto Zone L"
+    },
+    {
+      "host_name": "archiveproxy5",
+      "description": "This is the reverse proxy server for Internet Archive",
+      "fqdn": "Archive.org",
+      "environment": "Test",
+      "assigned_id": 50,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "200.97.217.0",
+        "60.218.234.90"
+      ],
+      "zone": "Boston Zone 7"
+    },
+    {
+      "host_name": "archiveapp2",
+      "description": "This is the app server for Internet Archive",
+      "fqdn": "Archive.org",
+      "environment": "Development",
+      "assigned_id": 923,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 225,
+      "storage_used_gb": 94,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "24.221.144.24",
+        "14.33.144.252"
+      ],
+      "zone": "Chicago Zone C"
+    },
+    {
+      "host_name": "archivedb4",
+      "description": "This is the database server for Internet Archive",
+      "fqdn": "Archive.org",
+      "environment": "Development",
+      "assigned_id": 386,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 231,
+      "storage_used_gb": 116,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "199.225.201.58",
+        "6.251.90.194"
+      ],
+      "zone": "Hong Kong Zone B"
+    }
+  ],
+  "Thesaurus.com": [
+    {
+      "host_name": "thesaurusweb4",
+      "description": "This is the web server for Thesaurus website",
+      "fqdn": "Thesaurus.com",
+      "environment": "Production",
+      "assigned_id": 407,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 9,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.10",
+      "ip_addresses": [
+        "6.34.78.227",
+        "216.250.6.148"
+      ],
+      "zone": "New York Zone D"
+    },
+    {
+      "host_name": "thesaurusproxy5",
+      "description": "This is the reverse proxy server for Thesaurus website",
+      "fqdn": "Thesaurus.com",
+      "environment": "Test",
+      "assigned_id": 422,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.2",
+      "ip_addresses": [
+        "25.250.126.191",
+        "32.45.97.159"
+      ],
+      "zone": "New York Zone A"
+    },
+    {
+      "host_name": "thesaurusapp5",
+      "description": "This is the app server for Thesaurus website",
+      "fqdn": "Thesaurus.com",
+      "environment": "Production",
+      "assigned_id": 87,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 234,
+      "storage_used_gb": 124,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "4.51.41.154",
+        "35.105.170.116"
+      ],
+      "zone": "Hong Kong Zone I"
+    },
+    {
+      "host_name": "thesaurusdb1",
+      "description": "This is the database server for Thesaurus website",
+      "fqdn": "Thesaurus.com",
+      "environment": "Test",
+      "assigned_id": 1225,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 402,
+      "storage_used_gb": 201,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 32,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "62.209.89.131",
+        "68.46.61.69"
+      ],
+      "zone": "Dallas Zone 10"
+    }
+  ],
+  "Mit.edu": [
+    {
+      "host_name": "mitweb4",
+      "description": "This is the web server for Massachusetts Institute of Technology (MIT)",
+      "fqdn": "Mit.edu",
+      "environment": "Test",
+      "assigned_id": 692,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 4,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "6.42.132.94",
+        "8.158.138.196"
+      ],
+      "zone": "New York Zone G"
+    },
+    {
+      "host_name": "mitproxy4",
+      "description": "This is the reverse proxy server for Massachusetts Institute of Technology (MIT)",
+      "fqdn": "Mit.edu",
+      "environment": "Development",
+      "assigned_id": 106,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "222.218.138.48",
+        "85.36.234.188"
+      ],
+      "zone": "Los Angeles Zone 9"
+    },
+    {
+      "host_name": "mitapp3",
+      "description": "This is the app server for Massachusetts Institute of Technology (MIT)",
+      "fqdn": "Mit.edu",
+      "environment": "Test",
+      "assigned_id": 91,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 348,
+      "storage_used_gb": 155,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "8.252.166.1",
+        "3.124.164.253"
+      ],
+      "zone": "Chicago Zone B"
+    },
+    {
+      "host_name": "mitdb1",
+      "description": "This is the database server for Massachusetts Institute of Technology (MIT)",
+      "fqdn": "Mit.edu",
+      "environment": "Test",
+      "assigned_id": 853,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 496,
+      "storage_used_gb": 250,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "39.234.218.128",
+        "87.22.166.190"
+      ],
+      "zone": "Kyoto Zone 2"
+    }
+  ],
+  "Investopedia.com": [
+    {
+      "host_name": "investweb1",
+      "description": "This is the web server for Investopedia",
+      "fqdn": "Investopedia.com",
+      "environment": "Production",
+      "assigned_id": 463,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 5,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "5.112.117.30",
+        "104.92.154.167"
+      ],
+      "zone": "Chicago Zone O"
+    },
+    {
+      "host_name": "investproxy0",
+      "description": "This is the reverse proxy server for Investopedia",
+      "fqdn": "Investopedia.com",
+      "environment": "Test",
+      "assigned_id": 132,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "221.241.214.193",
+        "6.129.226.107"
+      ],
+      "zone": "Chicago Zone 10"
+    },
+    {
+      "host_name": "investapp0",
+      "description": "This is the app server for Investopedia",
+      "fqdn": "Investopedia.com",
+      "environment": "Production",
+      "assigned_id": 17,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 119,
+      "storage_used_gb": 64,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "48.17.28.78",
+        "25.228.192.6"
+      ],
+      "zone": "Boston Zone J"
+    },
+    {
+      "host_name": "investopediadb4",
+      "description": "This is the database server for Investopedia",
+      "fqdn": "Investopedia.com",
+      "environment": "Production",
+      "assigned_id": 953,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 477,
+      "storage_used_gb": 237,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "8.194.7.172",
+        "9.65.208.84"
+      ],
+      "zone": "Dallas Zone I"
+    }
+  ],
+  "Thefreedictionary.com": [
+    {
+      "host_name": "tfdweb0",
+      "description": "This is the web server for The Free Dictionary website",
+      "fqdn": "Thefreedictionary.com",
+      "environment": "Development",
+      "assigned_id": 243,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 5,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "3.95.134.127",
+        "30.182.33.33"
+      ],
+      "zone": "New Delhi Zone B"
+    },
+    {
+      "host_name": "tfdproxy2",
+      "description": "This is the reverse proxy server for The Free Dictionary website",
+      "fqdn": "Thefreedictionary.com",
+      "environment": "Development",
+      "assigned_id": 944,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "17.162.237.147",
+        "22.159.4.149"
+      ],
+      "zone": "Hong Kong Zone J"
+    },
+    {
+      "host_name": "tfdapp0",
+      "description": "This is the app server for The Free Dictionary website",
+      "fqdn": "Thefreedictionary.com",
+      "environment": "Development",
+      "assigned_id": 622,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 309,
+      "storage_used_gb": 140,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "211.217.115.107",
+        "7.195.26.168"
+      ],
+      "zone": "Chicago Zone 7"
+    },
+    {
+      "host_name": "tfddb3",
+      "description": "This is the database server for The Free Dictionary website",
+      "fqdn": "Thefreedictionary.com",
+      "environment": "Production",
+      "assigned_id": 52,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 371,
+      "storage_used_gb": 186,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "217.101.42.171",
+        "49.218.12.218"
+      ],
+      "zone": "Singapore Zone F"
+    }
+  ],
+  "Washington.edu": [
+    {
+      "host_name": "washingtonweb4",
+      "description": "This is the web server for University of Washington",
+      "fqdn": "Washington.edu",
+      "environment": "Development",
+      "assigned_id": 510,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Debian",
+      "operating_system_version": "8",
+      "ip_addresses": [
+        "218.213.7.17",
+        "46.119.54.110"
+      ],
+      "zone": "Hong Kong Zone D"
+    },
+    {
+      "host_name": "uowproxy4",
+      "description": "This is the reverse proxy server for University of Washington",
+      "fqdn": "Washington.edu",
+      "environment": "Development",
+      "assigned_id": 21,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "1.107.109.203",
+        "101.87.155.6"
+      ],
+      "zone": "Hong Kong Zone M"
+    },
+    {
+      "host_name": "washingtonapp3",
+      "description": "This is the app server for University of Washington",
+      "fqdn": "Washington.edu",
+      "environment": "Development",
+      "assigned_id": 62,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 106,
+      "storage_used_gb": 59,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "9.46.178.226",
+        "5.238.181.232"
+      ],
+      "zone": "Tokyo Zone H"
+    },
+    {
+      "host_name": "washingtondb5",
+      "description": "This is the database server for University of Washington",
+      "fqdn": "Washington.edu",
+      "environment": "Development",
+      "assigned_id": 932,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 500,
+      "storage_used_gb": 249,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "6.169.166.227",
+        "24.163.236.225"
+      ],
+      "zone": "New Mexico Zone B"
+    }
+  ],
+  "United.com": [
+    {
+      "host_name": "unitedweb5",
+      "description": "This is the web server for United Airlines",
+      "fqdn": "United.com",
+      "environment": "Test",
+      "assigned_id": 143,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "86.176.61.123",
+        "42.237.38.234"
+      ],
+      "zone": "Singapore Zone 2"
+    },
+    {
+      "host_name": "unitedproxy4",
+      "description": "This is the reverse proxy server for United Airlines",
+      "fqdn": "United.com",
+      "environment": "Development",
+      "assigned_id": 585,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 6,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "92.8.162.176",
+        "3.22.173.33"
+      ],
+      "zone": "Dallas Zone J"
+    },
+    {
+      "host_name": "unitedapp3",
+      "description": "This is the app server for United Airlines",
+      "fqdn": "United.com",
+      "environment": "Development",
+      "assigned_id": 670,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 341,
+      "storage_used_gb": 170,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "220.234.0.181",
+        "58.72.64.197"
+      ],
+      "zone": "San Franciso Zone H"
+    },
+    {
+      "host_name": "uniteddb4",
+      "description": "This is the database server for United Airlines",
+      "fqdn": "United.com",
+      "environment": "Test",
+      "assigned_id": 543,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 218,
+      "storage_used_gb": 110,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "206.48.58.170",
+        "49.168.67.10"
+      ],
+      "zone": "Hong Kong Zone A"
+    }
+  ],
+  "apache.org": [
+    {
+      "host_name": "apacheweb4",
+      "description": "This is the web server for Apache Software Foundation",
+      "fqdn": "apache.org",
+      "environment": "Production",
+      "assigned_id": 797,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 12,
+      "storage_used_gb": 4,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.2",
+      "ip_addresses": [
+        "4.19.206.244",
+        "114.59.117.198"
+      ],
+      "zone": "Los Angeles Zone 4"
+    },
+    {
+      "host_name": "apacheproxy1",
+      "description": "This is the reverse proxy server for Apache Software Foundation",
+      "fqdn": "apache.org",
+      "environment": "Development",
+      "assigned_id": 28,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "212.205.37.15",
+        "9.180.84.66"
+      ],
+      "zone": "Chicago Zone 7"
+    },
+    {
+      "host_name": "apacheapp4",
+      "description": "This is the app server for Apache Software Foundation",
+      "fqdn": "apache.org",
+      "environment": "Test",
+      "assigned_id": 886,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 232,
+      "storage_used_gb": 109,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "4.165.235.19",
+        "211.247.81.145"
+      ],
+      "zone": "Singapore Zone N"
+    },
+    {
+      "host_name": "apachedb0",
+      "description": "This is the database server for Apache Software Foundation",
+      "fqdn": "apache.org",
+      "environment": "Test",
+      "assigned_id": 990,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 369,
+      "storage_used_gb": 185,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "1.155.89.206",
+        "198.197.210.250"
+      ],
+      "zone": "San Franciso Zone 1"
+    }
+  ],
+  "Capitalsafety.com": [
+    {
+      "host_name": "capitalweb1",
+      "description": "This is the web server for Capital Safety",
+      "fqdn": "Capitalsafety.com",
+      "environment": "Production",
+      "assigned_id": 125,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 9,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "7.188.55.199",
+        "8.69.147.186"
+      ],
+      "zone": "New Delhi Zone 3"
+    },
+    {
+      "host_name": "capitalproxy3",
+      "description": "This is the reverse proxy server for Capital Safety",
+      "fqdn": "Capitalsafety.com",
+      "environment": "Production",
+      "assigned_id": 44,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "211.225.73.221",
+        "2.1.145.197"
+      ],
+      "zone": "Tokyo Zone P"
+    },
+    {
+      "host_name": "capitalapp0",
+      "description": "This is the app server for Capital Safety",
+      "fqdn": "Capitalsafety.com",
+      "environment": "Development",
+      "assigned_id": 808,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 170,
+      "storage_used_gb": 77,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.3-1611",
+      "ip_addresses": [
+        "9.103.83.66",
+        "212.183.134.54"
+      ],
+      "zone": "Kyoto Zone H"
+    },
+    {
+      "host_name": "capitaldb4",
+      "description": "This is the database server for Capital Safety",
+      "fqdn": "Capitalsafety.com",
+      "environment": "Development",
+      "assigned_id": 499,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 489,
+      "storage_used_gb": 245,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "Coppermine",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "2.137.86.76",
+        "53.200.108.245"
+      ],
+      "zone": "Chicago Zone 1"
+    }
+  ],
+  "Reverso.net": [
+    {
+      "host_name": "reversoweb2",
+      "description": "This is the web server for Reverso Translation website",
+      "fqdn": "Reverso.net",
+      "environment": "Development",
+      "assigned_id": 1625,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "IBM AIX",
+      "operating_system_version": "7.1",
+      "ip_addresses": [
+        "2.126.163.252",
+        "84.112.224.153"
+      ],
+      "zone": "Boston Zone P"
+    },
+    {
+      "host_name": "reversoproxy4",
+      "description": "This is the reverse proxy server for Reverso Translation website",
+      "fqdn": "Reverso.net",
+      "environment": "Production",
+      "assigned_id": 1841,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "206.51.35.58",
+        "23.164.13.195"
+      ],
+      "zone": "Chicago Zone G"
+    },
+    {
+      "host_name": "reversoapp2",
+      "description": "This is the app server for Reverso Translation website",
+      "fqdn": "Reverso.net",
+      "environment": "Development",
+      "assigned_id": 1873,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 190,
+      "storage_used_gb": 97,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "PII Xeon",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "6.128.106.220",
+        "207.201.76.190"
+      ],
+      "zone": "San Franciso Zone 7"
+    },
+    {
+      "host_name": "reversodb4",
+      "description": "This is the database server for Reverso Translation website",
+      "fqdn": "Reverso.net",
+      "environment": "Development",
+      "assigned_id": 869,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 274,
+      "storage_used_gb": 138,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 32,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "211.216.2.87",
+        "66.57.105.146"
+      ],
+      "zone": "Baltimore Zone 9"
+    }
+  ],
+  "Britannica.com": [
+    {
+      "host_name": "britannicaweb2",
+      "description": "This is the web server for Encyclopaedia Britannica",
+      "fqdn": "Britannica.com",
+      "environment": "Development",
+      "assigned_id": 204,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 20,
+      "storage_used_gb": 10,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80186",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "57.61.71.174",
+        "2.62.55.14"
+      ],
+      "zone": "Dallas Zone 4"
+    },
+    {
+      "host_name": "ebproxy3",
+      "description": "This is the reverse proxy server for Encyclopaedia Britannica",
+      "fqdn": "Britannica.com",
+      "environment": "Production",
+      "assigned_id": 829,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "109.2.86.165",
+        "208.99.129.175"
+      ],
+      "zone": "New Delhi Zone 2"
+    },
+    {
+      "host_name": "britannicaapp3",
+      "description": "This is the app server for Encyclopaedia Britannica",
+      "fqdn": "Britannica.com",
+      "environment": "Development",
+      "assigned_id": 546,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 244,
+      "storage_used_gb": 124,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "211.196.223.144",
+        "212.71.180.179"
+      ],
+      "zone": "Hong Kong Zone P"
+    },
+    {
+      "host_name": "britannicadb0",
+      "description": "This is the database server for Encyclopaedia Britannica",
+      "fqdn": "Britannica.com",
+      "environment": "Development",
+      "assigned_id": 375,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 376,
+      "storage_used_gb": 190,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "4.53.226.21",
+        "118.117.196.49"
+      ],
+      "zone": "Singapore Zone A"
+    }
+  ],
+  "Space.com": [
+    {
+      "host_name": "spaceweb1",
+      "description": "This is the web server for Space website",
+      "fqdn": "Space.com",
+      "environment": "Development",
+      "assigned_id": 1507,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 10,
+      "storage_used_gb": 5,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "65.63.216.253",
+        "2.158.192.23"
+      ],
+      "zone": "Dallas Zone A"
+    },
+    {
+      "host_name": "spaceproxy4",
+      "description": "This is the reverse proxy server for Space website",
+      "fqdn": "Space.com",
+      "environment": "Test",
+      "assigned_id": 623,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "5.89.147.145",
+        "123.158.180.16"
+      ],
+      "zone": "San Franciso Zone L"
+    },
+    {
+      "host_name": "spaceapp4",
+      "description": "This is the app server for Space website",
+      "fqdn": "Space.com",
+      "environment": "Production",
+      "assigned_id": 428,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 351,
+      "storage_used_gb": 172,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "52.114.123.92",
+        "46.128.138.80"
+      ],
+      "zone": "Washington Zone M"
+    },
+    {
+      "host_name": "spacedb3",
+      "description": "This is the database server for Space website",
+      "fqdn": "Space.com",
+      "environment": "Development",
+      "assigned_id": 813,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 462,
+      "storage_used_gb": 232,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "112.97.80.86",
+        "126.229.76.39"
+      ],
+      "zone": "New Mexico Zone 6"
+    }
+  ],
+  "Abcya.com": [
+    {
+      "host_name": "abcyaweb4",
+      "description": "This is the web server for ABCya!",
+      "fqdn": "Abcya.com",
+      "environment": "Development",
+      "assigned_id": 286,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "21.220.42.173",
+        "120.54.90.204"
+      ],
+      "zone": "Boston Zone D"
+    },
+    {
+      "host_name": "abcyaproxy4",
+      "description": "This is the reverse proxy server for ABCya!",
+      "fqdn": "Abcya.com",
+      "environment": "Development",
+      "assigned_id": 731,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "100.77.27.185",
+        "217.210.160.211"
+      ],
+      "zone": "Hong Kong Zone D"
+    },
+    {
+      "host_name": "abcyaapp4",
+      "description": "This is the app server for ABCya!",
+      "fqdn": "Abcya.com",
+      "environment": "Test",
+      "assigned_id": 363,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 355,
+      "storage_used_gb": 177,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Celeron",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "44.169.137.113",
+        "126.87.125.62"
+      ],
+      "zone": "Boston Zone O"
+    },
+    {
+      "host_name": "abcyadb0",
+      "description": "This is the database server for ABCya!",
+      "fqdn": "Abcya.com",
+      "environment": "Development",
+      "assigned_id": 496,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 443,
+      "storage_used_gb": 222,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "203.233.235.31",
+        "23.58.174.154"
+      ],
+      "zone": "Baltimore Zone J"
+    }
+  ],
+  "Raspberrypi.org": [
+    {
+      "host_name": "raspberrypiweb2",
+      "description": "This is the web server for Raspberry Pi",
+      "fqdn": "Raspberrypi.org",
+      "environment": "Test",
+      "assigned_id": 13,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Debian",
+      "operating_system_version": "8",
+      "ip_addresses": [
+        "111.68.210.194",
+        "216.162.74.118"
+      ],
+      "zone": "Hong Kong Zone M"
+    },
+    {
+      "host_name": "raspberryproxy0",
+      "description": "This is the reverse proxy server for Raspberry Pi",
+      "fqdn": "Raspberrypi.org",
+      "environment": "Test",
+      "assigned_id": 19,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "217.86.104.169",
+        "4.9.201.97"
+      ],
+      "zone": "Baltimore Zone 2"
+    },
+    {
+      "host_name": "raspberrypiapp5",
+      "description": "This is the app server for Raspberry Pi",
+      "fqdn": "Raspberrypi.org",
+      "environment": "Development",
+      "assigned_id": 297,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 119,
+      "storage_used_gb": 45,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "114.64.14.166",
+        "1.233.250.44"
+      ],
+      "zone": "New York Zone 8"
+    },
+    {
+      "host_name": "raspberrypidb1",
+      "description": "This is the database server for Raspberry Pi",
+      "fqdn": "Raspberrypi.org",
+      "environment": "Test",
+      "assigned_id": 229,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 424,
+      "storage_used_gb": 212,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "212.219.104.151",
+        "8.166.38.251"
+      ],
+      "zone": "Los Angeles Zone 10"
+    }
+  ],
+  "Rhymezone.com": [
+    {
+      "host_name": "rhymezoneweb2",
+      "description": "This is the web server for RhymeZone",
+      "fqdn": "Rhymezone.com",
+      "environment": "Production",
+      "assigned_id": 878,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.2",
+      "ip_addresses": [
+        "205.142.6.88",
+        "21.68.15.97"
+      ],
+      "zone": "Tokyo Zone K"
+    },
+    {
+      "host_name": "rhymezoneproxy0",
+      "description": "This is the reverse proxy server for RhymeZone",
+      "fqdn": "Rhymezone.com",
+      "environment": "Development",
+      "assigned_id": 191,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.04",
+      "ip_addresses": [
+        "218.109.248.224",
+        "220.247.76.144"
+      ],
+      "zone": "Seattle Zone 5"
+    },
+    {
+      "host_name": "rhymezoneapp0",
+      "description": "This is the app server for RhymeZone",
+      "fqdn": "Rhymezone.com",
+      "environment": "Production",
+      "assigned_id": 794,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 151,
+      "storage_used_gb": 83,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "7.111.169.51",
+        "4.109.43.243"
+      ],
+      "zone": "Boston Zone L"
+    },
+    {
+      "host_name": "rhymezonedb0",
+      "description": "This is the database server for RhymeZone",
+      "fqdn": "Rhymezone.com",
+      "environment": "Development",
+      "assigned_id": 976,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 429,
+      "storage_used_gb": 216,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Celeron",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "100.10.243.29",
+        "29.41.152.240"
+      ],
+      "zone": "New Delhi Zone 10"
+    }
+  ],
+  "Sitepoint.com": [
+    {
+      "host_name": "sitepointweb5",
+      "description": "This is the web server for SitePoint",
+      "fqdn": "Sitepoint.com",
+      "environment": "Production",
+      "assigned_id": 928,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "85.206.168.10",
+        "79.176.237.67"
+      ],
+      "zone": "Chicago Zone A"
+    },
+    {
+      "host_name": "sitepointproxy4",
+      "description": "This is the reverse proxy server for SitePoint",
+      "fqdn": "Sitepoint.com",
+      "environment": "Production",
+      "assigned_id": 617,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 6,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "29.71.249.68",
+        "40.23.234.108"
+      ],
+      "zone": "San Franciso Zone L"
+    },
+    {
+      "host_name": "sitepointapp3",
+      "description": "This is the app server for SitePoint",
+      "fqdn": "Sitepoint.com",
+      "environment": "Development",
+      "assigned_id": 770,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 204,
+      "storage_used_gb": 106,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 8,
+      "cpu_name": "Celeron",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "5.235.60.207",
+        "5.178.213.41"
+      ],
+      "zone": "Hong Kong Zone J"
+    },
+    {
+      "host_name": "sitepointdb3",
+      "description": "This is the database server for SitePoint",
+      "fqdn": "Sitepoint.com",
+      "environment": "Production",
+      "assigned_id": 1050,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 305,
+      "storage_used_gb": 152,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Coppermine",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "220.240.139.169",
+        "8.14.199.79"
+      ],
+      "zone": "Singapore Zone 1"
+    }
+  ],
+  "Citationmachine.net": [
+    {
+      "host_name": "citationweb0",
+      "description": "This is the web server for Citation Machine™",
+      "fqdn": "Citationmachine.net",
+      "environment": "Development",
+      "assigned_id": 792,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 10,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "7.27.176.154",
+        "24.218.36.40"
+      ],
+      "zone": "New Delhi Zone G"
+    },
+    {
+      "host_name": "citationproxy4",
+      "description": "This is the reverse proxy server for Citation Machine™",
+      "fqdn": "Citationmachine.net",
+      "environment": "Production",
+      "assigned_id": 34,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 5,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.2",
+      "ip_addresses": [
+        "214.133.173.202",
+        "16.188.232.69"
+      ],
+      "zone": "San Franciso Zone G"
+    },
+    {
+      "host_name": "citationapp3",
+      "description": "This is the app server for Citation Machine™",
+      "fqdn": "Citationmachine.net",
+      "environment": "Development",
+      "assigned_id": 381,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 381,
+      "storage_used_gb": 172,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "206.214.63.169",
+        "89.225.192.129"
+      ],
+      "zone": "San Franciso Zone 8"
+    },
+    {
+      "host_name": "citationdb1",
+      "description": "This is the database server for Citation Machine™",
+      "fqdn": "Citationmachine.net",
+      "environment": "Development",
+      "assigned_id": 445,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 266,
+      "storage_used_gb": 131,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "223.222.241.76",
+        "209.25.40.237"
+      ],
+      "zone": "Dallas Zone 6"
+    }
+  ],
+  "Irishtimes.com": [
+    {
+      "host_name": "irishtimesweb4",
+      "description": "This is the web server for The Irish Times",
+      "fqdn": "Irishtimes.com",
+      "environment": "Development",
+      "assigned_id": 558,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.10",
+      "ip_addresses": [
+        "102.182.243.230",
+        "40.241.4.57"
+      ],
+      "zone": "Seattle Zone 4"
+    },
+    {
+      "host_name": "irishproxy3",
+      "description": "This is the reverse proxy server for The Irish Times",
+      "fqdn": "Irishtimes.com",
+      "environment": "Development",
+      "assigned_id": 197,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 15,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Solaris",
+      "operating_system_version": "11",
+      "ip_addresses": [
+        "1.249.176.117",
+        "49.125.235.35"
+      ],
+      "zone": "Seattle Zone 3"
+    },
+    {
+      "host_name": "irishtimesapp3",
+      "description": "This is the app server for The Irish Times",
+      "fqdn": "Irishtimes.com",
+      "environment": "Test",
+      "assigned_id": 244,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 311,
+      "storage_used_gb": 155,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "5.231.155.126",
+        "120.189.23.248"
+      ],
+      "zone": "San Franciso Zone 1"
+    },
+    {
+      "host_name": "irishtimesdb3",
+      "description": "This is the database server for The Irish Times",
+      "fqdn": "Irishtimes.com",
+      "environment": "Development",
+      "assigned_id": 22,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 331,
+      "storage_used_gb": 167,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "3.144.97.173",
+        "7.137.214.25"
+      ],
+      "zone": "New Delhi Zone 5"
+    }
+  ],
+  "Easybib.com": [
+    {
+      "host_name": "easybibweb1",
+      "description": "This is the web server for EasyBib website",
+      "fqdn": "Easybib.com",
+      "environment": "Test",
+      "assigned_id": 456,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 9,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Solaris",
+      "operating_system_version": "11.3",
+      "ip_addresses": [
+        "213.63.191.48",
+        "6.142.113.91"
+      ],
+      "zone": "Tokyo Zone K"
+    },
+    {
+      "host_name": "easybibproxy5",
+      "description": "This is the reverse proxy server for EasyBib website",
+      "fqdn": "Easybib.com",
+      "environment": "Test",
+      "assigned_id": 710,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 6,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7.3",
+      "ip_addresses": [
+        "3.227.107.240",
+        "21.170.203.197"
+      ],
+      "zone": "Washington Zone N"
+    },
+    {
+      "host_name": "easybibapp1",
+      "description": "This is the app server for EasyBib website",
+      "fqdn": "Easybib.com",
+      "environment": "Test",
+      "assigned_id": 259,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 392,
+      "storage_used_gb": 198,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "PII Xeon",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "68.31.222.251",
+        "223.39.73.83"
+      ],
+      "zone": "Singapore Zone M"
+    },
+    {
+      "host_name": "easybibdb5",
+      "description": "This is the database server for EasyBib website",
+      "fqdn": "Easybib.com",
+      "environment": "Test",
+      "assigned_id": 429,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 436,
+      "storage_used_gb": 217,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "13.208.71.48",
+        "126.14.172.16"
+      ],
+      "zone": "Chicago Zone 7"
+    }
+  ],
+  "Indiatimes.com": [
+    {
+      "host_name": "indiatimesweb2",
+      "description": "This is the web server for India Times",
+      "fqdn": "Indiatimes.com",
+      "environment": "Development",
+      "assigned_id": 1000,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "3.16.104.90",
+        "205.21.57.120"
+      ],
+      "zone": "Chennai Zone 3"
+    },
+    {
+      "host_name": "indiaproxy2",
+      "description": "This is the reverse proxy server for India Times",
+      "fqdn": "Indiatimes.com",
+      "environment": "Test",
+      "assigned_id": 494,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 20,
+      "storage_used_gb": 8,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "204.125.214.17",
+        "207.190.166.167"
+      ],
+      "zone": "New Delhi Zone F"
+    },
+    {
+      "host_name": "indiatimesapp4",
+      "description": "This is the app server for India Times",
+      "fqdn": "Indiatimes.com",
+      "environment": "Development",
+      "assigned_id": 569,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 230,
+      "storage_used_gb": 104,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "1.90.64.237",
+        "56.230.22.63"
+      ],
+      "zone": "New Delhi Zone G"
+    },
+    {
+      "host_name": "indiatimesdb3",
+      "description": "This is the database server for India Times",
+      "fqdn": "Indiatimes.com",
+      "environment": "Development",
+      "assigned_id": 227,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 237,
+      "storage_used_gb": 120,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "8.0",
+      "ip_addresses": [
+        "200.244.197.165",
+        "62.108.143.231"
+      ],
+      "zone": "Chennai Fone 5"
+    }
+  ],
+  "Jal.co.jp": [
+    {
+      "host_name": "jalweb0",
+      "description": "This is the web server for Japan Airlines",
+      "fqdn": "Jal.co.jp",
+      "environment": "Test",
+      "assigned_id": 784,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 12,
+      "storage_used_gb": 6,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "44.133.189.147",
+        "213.249.32.147"
+      ],
+      "zone": "Hong Kong Zone A"
+    },
+    {
+      "host_name": "jalproxy0",
+      "description": "This is the reverse proxy server for Japan Airlines",
+      "fqdn": "Jal.co.jp",
+      "environment": "Production",
+      "assigned_id": 252,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 18,
+      "storage_used_gb": 9,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Debian",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "4.125.33.102",
+        "222.63.236.153"
+      ],
+      "zone": "New Delhi Zone A"
+    },
+    {
+      "host_name": "jalapp4",
+      "description": "This is the app server for Japan Airlines",
+      "fqdn": "Jal.co.jp",
+      "environment": "Development",
+      "assigned_id": 94,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 370,
+      "storage_used_gb": 183,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Xeon Woodcrest",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "5.151.62.55",
+        "58.226.244.177"
+      ],
+      "zone": "Hong Kong Zone B"
+    },
+    {
+      "host_name": "jaldb5",
+      "description": "This is the database server for Japan Airlines",
+      "fqdn": "Jal.co.jp",
+      "environment": "Production",
+      "assigned_id": 1673,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 469,
+      "storage_used_gb": 232,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "49.150.97.17",
+        "89.39.175.187"
+      ],
+      "zone": "Hong Kong Zone C"
+    }
+  ],
+  "Nba.com": [
+    {
+      "host_name": "nbaweb2",
+      "description": "This is the web server for National Basketball Association",
+      "fqdn": "Nba.com",
+      "environment": "Development",
+      "assigned_id": 488,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 20,
+      "storage_used_gb": 12,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "108.254.44.60",
+        "202.91.171.72"
+      ],
+      "zone": "Los Angeles Zone O"
+    },
+    {
+      "host_name": "nbaproxy3",
+      "description": "This is the reverse proxy server for National Basketball Association",
+      "fqdn": "Nba.com",
+      "environment": "Production",
+      "assigned_id": 942,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "9.162.112.179",
+        "74.0.121.117"
+      ],
+      "zone": "Singapore Zone B"
+    },
+    {
+      "host_name": "nbaapp2",
+      "description": "This is the app server for National Basketball Association",
+      "fqdn": "Nba.com",
+      "environment": "Development",
+      "assigned_id": 652,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 189,
+      "storage_used_gb": 103,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 16,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "7.156.113.54",
+        "216.81.46.106"
+      ],
+      "zone": "Singapore Zone 7"
+    },
+    {
+      "host_name": "nbadb1",
+      "description": "This is the database server for National Basketball Association",
+      "fqdn": "Nba.com",
+      "environment": "Production",
+      "assigned_id": 908,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 369,
+      "storage_used_gb": 186,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 8,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.5-1804",
+      "ip_addresses": [
+        "64.75.134.101",
+        "212.189.251.54"
+      ],
+      "zone": "Tokyo Zone G"
+    }
+  ],
+  "Pinkbike.com": [
+    {
+      "host_name": "pinkbikeweb1",
+      "description": "This is the web server for PinkBike website",
+      "fqdn": "Pinkbike.com",
+      "environment": "Development",
+      "assigned_id": 1413,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "207.24.248.239",
+        "6.94.217.33"
+      ],
+      "zone": "New Mexico Zone D"
+    },
+    {
+      "host_name": "pinkbikeproxy0",
+      "description": "This is the reverse proxy server for PinkBike website",
+      "fqdn": "Pinkbike.com",
+      "environment": "Production",
+      "assigned_id": 842,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.04",
+      "ip_addresses": [
+        "71.131.99.176",
+        "209.66.195.202"
+      ],
+      "zone": "Chicago Zone A"
+    },
+    {
+      "host_name": "pinkbikeapp2",
+      "description": "This is the app server for PinkBike website",
+      "fqdn": "Pinkbike.com",
+      "environment": "Development",
+      "assigned_id": 314,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 210,
+      "storage_used_gb": 102,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Intel 80186",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "2.108.238.176",
+        "89.193.161.58"
+      ],
+      "zone": "New York Zone 9"
+    },
+    {
+      "host_name": "pinkbikedb1",
+      "description": "This is the database server for PinkBike website",
+      "fqdn": "Pinkbike.com",
+      "environment": "Test",
+      "assigned_id": 472,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 317,
+      "storage_used_gb": 160,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Celeron",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.04",
+      "ip_addresses": [
+        "201.101.134.227",
+        "223.231.18.168"
+      ],
+      "zone": "Singapore Zone A"
+    }
+  ],
+  "Fangraphs.com": [
+    {
+      "host_name": "fangraphsweb3",
+      "description": "This is the web server for FanGraphs website",
+      "fqdn": "Fangraphs.com",
+      "environment": "Production",
+      "assigned_id": 78,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 13,
+      "storage_used_gb": 8,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "PII Xeon",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "52.138.102.24",
+        "3.11.132.93"
+      ],
+      "zone": "Los Angeles Zone O"
+    },
+    {
+      "host_name": "fangraphsproxy0",
+      "description": "This is the reverse proxy server for FanGraphs website",
+      "fqdn": "Fangraphs.com",
+      "environment": "Test",
+      "assigned_id": 1966,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 14,
+      "storage_used_gb": 7,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Debian",
+      "operating_system_version": "8",
+      "ip_addresses": [
+        "208.101.218.135",
+        "207.33.124.245"
+      ],
+      "zone": "Chicago Zone 5"
+    },
+    {
+      "host_name": "fangraphsapp2",
+      "description": "This is the app server for FanGraphs website",
+      "fqdn": "Fangraphs.com",
+      "environment": "Production",
+      "assigned_id": 552,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 191,
+      "storage_used_gb": 85,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Pentium Pro",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "3.4.239.172",
+        "1.146.49.170"
+      ],
+      "zone": "San Franciso Zone 10"
+    },
+    {
+      "host_name": "fangraphsdb5",
+      "description": "This is the database server for FanGraphs website",
+      "fqdn": "Fangraphs.com",
+      "environment": "Production",
+      "assigned_id": 724,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 300,
+      "storage_used_gb": 152,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "18.04",
+      "ip_addresses": [
+        "210.201.189.179",
+        "204.185.144.217"
+      ],
+      "zone": "Tokyo Zone 8"
+    }
+  ],
+  "Hattrick.org": [
+    {
+      "host_name": "hattrickweb2",
+      "description": "This is the web server for Hattrick website",
+      "fqdn": "Hattrick.org",
+      "environment": "Production",
+      "assigned_id": 498,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 16,
+      "storage_used_gb": 10,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "9",
+      "ip_addresses": [
+        "217.175.216.77",
+        "220.34.3.4"
+      ],
+      "zone": "New York Zone H"
+    },
+    {
+      "host_name": "hattrickproxy5",
+      "description": "This is the reverse proxy server for Hattrick website",
+      "fqdn": "Hattrick.org",
+      "environment": "Development",
+      "assigned_id": 404,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 20,
+      "storage_used_gb": 10,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel pantium M",
+      "operating_system": "Debian",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "9.15.99.130",
+        "204.244.190.247"
+      ],
+      "zone": "Seattle Zone P"
+    },
+    {
+      "host_name": "hattrickapp3",
+      "description": "This is the app server for Hattrick website",
+      "fqdn": "Hattrick.org",
+      "environment": "Development",
+      "assigned_id": 93,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 217,
+      "storage_used_gb": 109,
+      "role": "App Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "PIII Xeon",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "8.90.165.165",
+        "7.146.159.52"
+      ],
+      "zone": "Boston Zone L"
+    },
+    {
+      "host_name": "hattrickdb5",
+      "description": "This is the database server for Hattrick website",
+      "fqdn": "Hattrick.org",
+      "environment": "Test",
+      "assigned_id": 413,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 460,
+      "storage_used_gb": 230,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 32,
+      "cpu_name": "Celeron",
+      "operating_system": "CentOS",
+      "operating_system_version": "7.4-1708",
+      "ip_addresses": [
+        "213.245.83.99",
+        "2.203.221.214"
+      ],
+      "zone": "New Delhi Zone F"
+    }
+  ],
+  "Hkjc.com": [
+    {
+      "host_name": "hkjcweb3",
+      "description": "This is the web server for The Hong Kong Jockey Club",
+      "fqdn": "Hkjc.com",
+      "environment": "Development",
+      "assigned_id": 1622,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 19,
+      "storage_used_gb": 11,
+      "role": "Web Server (IIS)",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "5.151.24.251",
+        "38.114.42.138"
+      ],
+      "zone": "San Franciso Zone G"
+    },
+    {
+      "host_name": "hkjcproxy3",
+      "description": "This is the reverse proxy server for The Hong Kong Jockey Club",
+      "fqdn": "Hkjc.com",
+      "environment": "Production",
+      "assigned_id": 1919,
+      "ram_allocated_gb": 2,
+      "storage_allocated_gb": 10,
+      "storage_used_gb": 4,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Intel 80486DX",
+      "operating_system": "Ubuntu",
+      "operating_system_version": "17.10",
+      "ip_addresses": [
+        "222.176.209.164",
+        "77.80.185.230"
+      ],
+      "zone": "Boston Zone N"
+    },
+    {
+      "host_name": "hkjcapp1",
+      "description": "This is the app server for The Hong Kong Jockey Club",
+      "fqdn": "Hkjc.com",
+      "environment": "Production",
+      "assigned_id": 352,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 293,
+      "storage_used_gb": 155,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 16,
+      "cpu_name": "Xeon Clovertown",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "206.241.61.72",
+        "204.253.142.98"
+      ],
+      "zone": "Boston Zone I"
+    },
+    {
+      "host_name": "hkjcdb1",
+      "description": "This is the database server for The Hong Kong Jockey Club",
+      "fqdn": "Hkjc.com",
+      "environment": "Development",
+      "assigned_id": 812,
+      "ram_allocated_gb": 32,
+      "storage_allocated_gb": 379,
+      "storage_used_gb": 191,
+      "role": "Database Server",
+      "cpu_count": 16,
+      "ram_used_gb": 16,
+      "cpu_name": "Coppermine",
+      "operating_system": "windows Server 2008 R2",
+      "operating_system_version": "NT 6.1",
+      "ip_addresses": [
+        "91.90.121.23",
+        "211.25.46.94"
+      ],
+      "zone": "Chicago Zone B"
+    }
+  ],
+  "seatguru.com": [
+    {
+      "host_name": "seatguruweb0",
+      "description": "This is the web server for SeatGuru website",
+      "fqdn": "seatguru.com",
+      "environment": "Production",
+      "assigned_id": 703,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 17,
+      "storage_used_gb": 7,
+      "role": "Web Server (IIS)",
+      "cpu_count": 1,
+      "ram_used_gb": 1,
+      "cpu_name": "Coppermine",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "106.178.131.86",
+        "7.35.176.193"
+      ],
+      "zone": "Baltimore Zone 10"
+    },
+    {
+      "host_name": "seatguruproxy4",
+      "description": "This is the reverse proxy server for SeatGuru website",
+      "fqdn": "seatguru.com",
+      "environment": "Development",
+      "assigned_id": 945,
+      "ram_allocated_gb": 1,
+      "storage_allocated_gb": 11,
+      "storage_used_gb": 4,
+      "role": "Reverse Proxy Server",
+      "cpu_count": 2,
+      "ram_used_gb": 1,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2016",
+      "operating_system_version": "NT 10.0",
+      "ip_addresses": [
+        "33.153.25.97",
+        "2.15.225.113"
+      ],
+      "zone": "Kyoto Zone 9"
+    },
+    {
+      "host_name": "seatguruapp0",
+      "description": "This is the app server for SeatGuru website",
+      "fqdn": "seatguru.com",
+      "environment": "Development",
+      "assigned_id": 232,
+      "ram_allocated_gb": 64,
+      "storage_allocated_gb": 201,
+      "storage_used_gb": 82,
+      "role": "App Server",
+      "cpu_count": 4,
+      "ram_used_gb": 32,
+      "cpu_name": "Celeron",
+      "operating_system": "Windows Server 2003",
+      "operating_system_version": "NT 5.2",
+      "ip_addresses": [
+        "216.56.125.39",
+        "71.231.28.45"
+      ],
+      "zone": "Los Angeles Zone B"
+    },
+    {
+      "host_name": "seatgurudb5",
+      "description": "This is the database server for SeatGuru website",
+      "fqdn": "seatguru.com",
+      "environment": "Test",
+      "assigned_id": 59,
+      "ram_allocated_gb": 16,
+      "storage_allocated_gb": 290,
+      "storage_used_gb": 147,
+      "role": "Database Server",
+      "cpu_count": 8,
+      "ram_used_gb": 8,
+      "cpu_name": "Coppermine",
+      "operating_system": "Red Hat Linux",
+      "operating_system_version": "7",
+      "ip_addresses": [
+        "6.250.95.234",
+        "125.82.126.183"
+      ],
+      "zone": "Boston Zone O"
+    }
+  ]
+}
